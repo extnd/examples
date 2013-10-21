@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="3.0" replicaid="86257B2E00116506" version="8.5" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="30a" sequence="1" unid="6725252D09C1B6BC85257B4D0017C8B3">
+<created><datetime dst="true">20130414T001947,07-04</datetime></created>
+<modified><datetime dst="true">20131021T110445,02-05</datetime></modified>
+<revised><datetime dst="true">20130414T001947,07-04</datetime></revised>
+<lastaccessed><datetime dst="true">20131021T110445,02-05</datetime></lastaccessed>
+<addedtofile><datetime dst="true">20131021T110445,02-05</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Jack Ratcliff/O=BlueCuda</name></updatedby>
+<item name="$TITLE"><textlist><text>examples/calendar/src/form/</text></textlist></item>
+<item name="$Flags"><text>345Cg/Q</text></item>
+<item name="$DesignerVersion"><text>6</text></item>
+<item name="$FileModDT"><datetime dst="true">20130414T001947,07-04</datetime></item>
+<item name="$Comment"><text>Directory element</text></item></note>
