@@ -2,11 +2,11 @@
 <!DOCTYPE note SYSTEM 'xmlschemas/domino_8_5_3.dtd'>
 <note default='true' class='icon' xmlns='http://www.lotus.com/dxl' version='8.5'
  maintenanceversion='3.0' replicaid='86257B2E00116506'>
-<noteinfo noteid='126' unid='A6827324E75D69F985256C1A0050BBB0' sequence='1'>
+<noteinfo noteid='126' unid='A6827324E75D69F985256C1A0050BBB0' sequence='3'>
 <created><datetime dst='true'>20020819T104149,28-04</datetime></created>
-<modified><datetime dst='true'>20131021T110354,66-05</datetime></modified>
-<revised><datetime dst='true'>20131020T233109,95-05</datetime></revised>
-<lastaccessed><datetime dst='true'>20131021T110354,66-05</datetime></lastaccessed>
+<modified><datetime dst='true'>20131021T121134,91-05</datetime></modified>
+<revised><datetime dst='true'>20131021T121134,90-05</datetime></revised>
+<lastaccessed><datetime dst='true'>20131021T121134,91-05</datetime></lastaccessed>
 <addedtofile><datetime dst='true'>20131021T110354,66-05</datetime></addedtofile></noteinfo>
 <updatedby><name>CN=JackAdmin Ratcliff/OU=CORP/O=RKTN</name><name>CN=Jack Ratcliff/O=TimsServer</name><name
 >CN=jratcliff/O=DDN</name><name>CN=Jack Ratcliff/O=BlueCuda</name><name>CN=Web/O=BlueCuda</name><name
@@ -16,6 +16,7 @@
 >CN=Jack Ratcliff/O=BlueCuda</name><name>CN=Jack Ratcliff/OU=A55DE6/O=Prominic</name></updatedby>
 <revisions><datetime dst='true'>20130322T153106,51-05</datetime><datetime
  dst='true'>20130401T221914,32-04</datetime><datetime dst='true'>20130401T222358,79-05</datetime></revisions>
+<wassignedby><name>CN=Jack Ratcliff/OU=A55DE6/O=Prominic</name></wassignedby>
 <item name='IconBitmap' summary='true' sign='true'>
 <rawitemdata type='6'>
 AiAgAQAA/gH///gAf//wAB//4AAP/8AAB//AAAP/gAAB/4AAAP+AAAD/gAAAf4AAAD+AAAA/gAAA
@@ -39,7 +40,7 @@ RAAAAAAAAAAAAEREREREREAAAA==
 <item name='$TITLE'><text>Extnd for Ext JS 4 Examples
 </text></item>
 <item name='$FlagsNoRefresh'><text>QU</text></item>
-<item name='$Flags'><text>JEQU67</text></item>
 <item name='$DefaultWebLaunchPage'><text>index.html</text></item>
-<item name='$Daos'><text>0</text></item></note>
+<item name='$Daos'><text>0</text></item>
+<item name='$Flags'><text>JEQU7</text></item></note>
 
