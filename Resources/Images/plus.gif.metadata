@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="3.0" replicaid="86257B2E00116506" version="8.5" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="232" sequence="5" unid="5E20A9B3789F831085256C1A00513436">
+<created><datetime dst="true">20020819T104657,82-04</datetime></created>
+<modified><datetime dst="true">20131021T110406,85-05</datetime></modified>
+<revised><datetime dst="true">20130322T153111,14-05</datetime></revised>
+<lastaccessed><datetime dst="true">20131021T110406,85-05</datetime></lastaccessed>
+<addedtofile><datetime dst="true">20131021T110406,85-05</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Jack Ratcliff/O=RKTNDevIntranet</name><name>CN=JackAdmin Ratcliff/OU=CORP/O=RKTN</name><name>CN=jratcliff/O=DDN</name><name>CN=Jack Ratcliff/OU=A55DE6/O=Prominic</name></updatedby>
+<wassignedby><name>CN=Jack Ratcliff/OU=A55DE6/O=Prominic</name></wassignedby>
+<item name="$TITLE"><text>plus.gif</text></item>
+<item name="$ImagesWide" sign="true"><number>1</number></item>
+<item name="$ImagesHigh" sign="true"><number>1</number></item>
+<item name="$ImagesColorize" sign="true"><number>0</number></item>
+
+<item name="$ImageNames" sign="true"><text>plus.gif</text></item>
+<item name="$DesignerVersion" sign="true"><text>5</text></item>
+<item name="$Flags"><text>34CiQ</text></item></note>

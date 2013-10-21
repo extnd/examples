@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="3.0" replicaid="86257B2E00116506" version="8.5" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="44a" sequence="34" unid="AA99F71205FBAC5D85257B4700526B80">
+<created><datetime dst="true">20130408T110014,72-04</datetime></created>
+<modified><datetime dst="true">20131021T110447,28-05</datetime></modified>
+<revised><datetime dst="true">20130415T113156,85-04</datetime></revised>
+<lastaccessed><datetime dst="true">20131021T110447,28-05</datetime></lastaccessed>
+<addedtofile><datetime dst="true">20131021T110447,28-05</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Jack Ratcliff/O=BlueCuda</name></updatedby>
+<revisions><datetime dst="true">20130408T110014,78-04</datetime><datetime dst="true">20130408T110014,80-04</datetime><datetime dst="true">20130408T113303,49-04</datetime><datetime dst="true">20130408T113601,82-04</datetime><datetime dst="true">20130408T114247,56-04</datetime><datetime dst="true">20130408T224434,50-04</datetime><datetime dst="true">20130408T224719,62-04</datetime><datetime dst="true">20130408T230309,47-04</datetime><datetime dst="true">20130408T231354,75-04</datetime><datetime dst="true">20130408T231618,98-04</datetime><datetime dst="true">20130410T175701,50-04</datetime><datetime dst="true">20130410T180053,21-04</datetime><datetime dst="true">20130413T224746,90-04</datetime><datetime dst="true">20130413T225329,72-04</datetime><datetime dst="true">20130413T230552,05-04</datetime><datetime dst="true">20130413T231809,76-04</datetime><datetime dst="true">20130413T231951,82-04</datetime><datetime dst="true">20130413T233010,99-04</datetime><datetime dst="true">20130413T233115,75-04</datetime><datetime dst="true">20130413T234603,70-04</datetime><datetime dst="true">20130414T003440,69-04</datetime><datetime dst="true">20130414T003946,93-04</datetime><datetime dst="true">20130414T004935,70-04</datetime><datetime dst="true">20130414T011055,38-04</datetime><datetime dst="true">20130414T011752,94-04</datetime><datetime dst="true">20130414T011937,28-04</datetime><datetime dst="true">20130414T012241,22-04</datetime><datetime dst="true">20130414T012639,24-04</datetime><datetime dst="true">20130414T013158,73-04</datetime><datetime dst="true">20130414T020145,88-04</datetime><datetime dst="true">20130414T222903,68-04</datetime><datetime dst="true">20130415T000546,74-04</datetime><datetime dst="true">20130415T112727,88-04</datetime></revisions>
+<item name="$TITLE"><textlist><text>examples/index.js</text></textlist></item>
+<item name="$Flags"><text>345CgQ</text></item>
+<item name="$DesignerVersion"><text>6</text></item>
+<item name="$FileNames"><textlist><text>index.js</text></textlist></item>
+
+
+<item name="$FileModDT"><datetime dst="true">20130415T113156,85-04</datetime></item>
+<item name="$MimeType"><text>application/javascript</text></item></note>

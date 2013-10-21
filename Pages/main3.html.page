@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE note SYSTEM 'xmlschemas/domino_8_5_3.dtd'>
+<note class='form' xmlns='http://www.lotus.com/dxl' version='8.5' maintenanceversion='3.0'
+ replicaid='86257B2E00116506'>
+<noteinfo noteid='39e' unid='3629B235DFA33E8886257B2F00191230' sequence='5'>
+<created><datetime dst='true'>20130314T233350,56-05</datetime></created>
+<modified><datetime dst='true'>20131021T110445,79-05</datetime></modified>
+<revised><datetime dst='true'>20130322T153122,42-05</datetime></revised>
+<lastaccessed><datetime dst='true'>20131021T110445,79-05</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20131021T110445,79-05</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Jack Ratcliff/OU=A55DE6/O=Prominic</name></updatedby>
+<wassignedby><name>CN=Jack Ratcliff/OU=A55DE6/O=Prominic</name></wassignedby>
+<item name='$HTMLCode' sign='true'>
+<rawitemdata type='1'>
+X/8QAAIADwAHAAAAAAAAAA==
+</rawitemdata></item>
+<item name='$TITLE'><text>main3.html</text></item>
+<item name='$Info' sign='true'>
+<rawitemdata type='1'>
+hhgBAIAAAAAAgAAAAQABAP///wAQAAAA
+</rawitemdata></item>
+<item name='$WindowTitle' sign='true'><formula>@DbTitle</formula></item>
+<item name='$HTMLHeadTag' sign='true'><formula>thisWebDbName := @WebDbName;
+extUrl := @GetProfileField("Extnd.Profile";"extUrl");
+extndUrl := @GetProfileField("Extnd.Profile";"extndUrl");
+debug := @If(@UrlQueryString("debug") = "true"; "-debug"; "");
+
+
+"&lt;!-- Ext JS library --&gt;" + @NewLine +
+"&lt;script type='text/javascript' src='" + extUrl + "ext-all" + debug + ".js'&gt;&lt;/script&gt;" + @NewLine +
+
+"&lt;!-- Extnd JS library --&gt;" + @NewLine +
+"&lt;script type='text/javascript' src='" + extndUrl + "extnd-all" + debug + ".js'&gt;&lt;/script&gt;" + @NewLine +
+"&lt;script type='text/javascript' src='" + extndUrl + "Session.js?OpenAgent&amp;db=" + thisWebDbName + "'&gt;&lt;/script&gt;" + @NewLine +
+
+"&lt;link rel='stylesheet' type='text/css' href='" + extUrl + "resources/css/ext-all.css' /&gt;" + @NewLine +
+"&lt;link rel='stylesheet' type='text/css' href='" + extndUrl + "resources/css/domino.css' /&gt;" + @NewLine +
+
+"&lt;script type='text/javascript'&gt;" + @NewLine +
+"var ExtndApp = function() {
+	 return {
+		init : function(){
+			this.ui = new Ext.nd.DominoUI({
+				uiOutline : {
+					outlineName: '($Ext.nd.ViewAndFolderList)'
+				},
+				uiView : {
+					viewName: 'f1', 
+					viewTitle: 'A Flat View Example', 
+					showSearch: 'true'
+				}
+			}); 
+		} // init
+	} // return
+ }();" + @NewLine +
+
+" Ext.onReady(ExtndApp.init, ExtndApp); " + @NewLine +
+
+"&lt;/script&gt;"</formula></item>
+<item name='$Flags'><text>C34WQ</text></item>
+<item name='$DesignerVersion' sign='true'><text>7</text></item>
+<item name='$$ScriptName' summary='false' sign='true'><text>main3.html</text></item>
+<item name='$Body' sign='true'>
+<rawitemdata type='1'>
+gQKC/1oAAQAAAAAAAAAAAKAFAACgBQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAABAAAAAJSHAAAAAAAAAAAAAAAAAQAAAAQAAACDBAEAhf8IAAEAAAqBAoMEAQCF/wgA
+AQAACoECgv9aAAIAAAAAAAAAAACgBQAAoAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAQAAAACVhwAAAAAAAAAAAAAAAAEAAAAEAAAAgwQCAIX/iAABAAAKVGhlIFVJ
+IGZvciB0aGlzIHBhZ2UgaXMgYnVpbHQgd2l0aCBFeHQgYW5kIEV4dG5kLiAgUGxlYXNlIHJlZmVy
+IHRvIHRoZSBIVE1MIEhlYWQgQ29udGVudCB0byBzZWUgaG93IHNpbXBsZSB0aGlzIFVJIHdhcyB0
+byBidWlsZC6BAoMEAgCF/wgAAQAACg==
+</rawitemdata></item></note>
+

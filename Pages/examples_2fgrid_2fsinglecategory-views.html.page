@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE note SYSTEM 'xmlschemas/domino_8_5_3.dtd'>
+<note class='form' xmlns='http://www.lotus.com/dxl' version='8.5' maintenanceversion='3.0'
+ replicaid='86257B2E00116506'>
+<noteinfo noteid='352' unid='8CC1E864AB42A78986257B2F00191226' sequence='15'>
+<created><datetime dst='true'>20130314T233350,46-05</datetime></created>
+<modified><datetime dst='true'>20131021T110445,39-05</datetime></modified>
+<revised><datetime dst='true'>20130402T113752,18-05</datetime></revised>
+<lastaccessed><datetime dst='true'>20131021T110445,39-05</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20131021T110445,39-05</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Jack Ratcliff/O=BlueCuda</name><name>CN=Jack Ratcliff/OU=A55DE6/O=Prominic</name></updatedby>
+<revisions><datetime dst='true'>20130328T103617,87-05</datetime><datetime
+ dst='true'>20130401T222401,02-05</datetime><datetime dst='true'>20130402T112848,07-05</datetime><datetime
+ dst='true'>20130402T112915,24-05</datetime></revisions>
+<wassignedby><name>CN=Jack Ratcliff/OU=A55DE6/O=Prominic</name></wassignedby>
+<item name='$HTMLCode' sign='true'>
+<rawitemdata type='1'>
+X/8QAAIADwAHAAAAAAAAAA==
+</rawitemdata></item>
+<item name='$TITLE'><text>examples/grid/singlecategory-views.html</text></item>
+<item name='$Info' sign='true'>
+<rawitemdata type='1'>
+hhgBAIAAAAAAgAAAAQABAP///wAQAAAA
+</rawitemdata></item>
+<item name='$WindowTitle' sign='true'><formula>"Single Category View Demos"</formula></item>
+<item name='$HTMLHeadTag' sign='true'><formula>thisWebDbName := @WebDbName;
+extUrl := @GetProfileField("Extnd.Profile";"extUrl");
+extndUrl := @GetProfileField("Extnd.Profile";"extndUrl");
+debug := @If(@UrlQueryString("debug") = "true"; "-debug"; "");
+
+
+@NewLine + "&lt;!-- CSS --&gt;" + @NewLine +
+"&lt;link rel='stylesheet' type='text/css' href='" + extUrl + "resources/css/ext-all.css' /&gt;" + @NewLine +
+"&lt;link rel='stylesheet' type='text/css' href='" + extndUrl + "resources/css/domino.css' /&gt;" + @NewLine +
+
+@NewLine + "&lt;!-- Ext JS library --&gt;" + @NewLine +
+"&lt;script type='text/javascript' src='" + extUrl + "ext-all" + debug + ".js'&gt;&lt;/script&gt;" + @NewLine +
+
+@NewLine + "&lt;!-- Extnd JS library --&gt;" + @NewLine +
+"&lt;script type='text/javascript' src='" + extndUrl + "extnd-all" + debug + ".js'&gt;&lt;/script&gt;" + @NewLine +
+"&lt;script type='text/javascript' src='" + extndUrl + "Session.js?OpenAgent&amp;db=" + thisWebDbName + "'&gt;&lt;/script&gt;" + @NewLine +
+
+@NewLine + "&lt;!-- demo code --&gt;" + @NewLine +
+"&lt;script type='text/javascript' src='/" + thisWebDbName + "/examples/ViewSourceButton.js'&gt;&lt;/script&gt;" + @NewLine +
+"&lt;script type='text/javascript' src='singlecategory-views.js'&gt;&lt;/script&gt;"</formula></item>
+<item name='$Flags'><text>C34WQ</text></item>
+<item name='$DesignerVersion'><text>7</text></item>
+<item name='$$ScriptName' summary='false' sign='true'><text>demos/singlecategory-views.html</text></item>
+<item name='$Body' sign='true'>
+<rawitemdata type='1'>
+gQKC/1oAAQAAAAAAAAAAAKAFAACgBQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAABAAAAAJSHAAAAAAAAAAAAAAAAAQAAAAQAAACDBAEAhf8IAAEAAAqBAoMEAQCF/wgA
+AQAACoECgwQBAMz/CAAAAAAAhf8eAAEAAAo8ZGl2IGlkPSdkZXNjcmlwdGlvbic+zf8IAAAAAACF
+/wgAAQAACoECgwQBAIX/7wABAAAKV2hlbiB5b3UgZW1iZWQgYSB2aWV3IG9udG8gYSBGb3JtIG9y
+IFBhZ2UgaW4gRG9taW5vIERlc2lnbmVyIHlvdSBjYW4gZW50ZXIgYSB2YWx1ZSBmb3IgdGhlICdT
+aG93IHNpbmdsZSBjYXRlZ29yeScgcHJvcGVydHkuICBJbiBFeHRuZCwgd2UgaGF2ZSBhZGRlZCB0
+aGlzIGFiaWxpdHkgd2l0aCB0aGUgJ2NhdGVnb3J5JyBjb25maWcgcHJvcGVydHkgeW91IGNhbiBz
+ZXQgb24gYW4gRXh0bmQuVUlWaWV3LiAgAIECgwQBAIX/CAABAAAKgQKDBAEAhf9cAQEAAApUbyBn
+aXZlIGEgdXNlciB0aGUgYWJpbGl0eSB0byBzZWxlY3Qgb3RoZXIgY2F0ZWdvcmllcyB3ZSBoYXZl
+IGV2ZW4gYWRkZWQgdGhlIGFiaWxpdHkgdG8gc2hvdyBhIGNvbWJvIGluIHRoZSB0b3AgdG9vbGJh
+ciB0aGF0IHNob3dzIGp1c3QgdGhlIGNhdGVnb3JpZXMgYW5kIHdoZW4gYSB1c2VyIHNlbGVjdHMg
+b25lLCB0aGUgdmlldyBpcyByZWxvYWRlZCB0byBzaG93IGp1c3QgdGhlIGRvY3VtZW50cyBmb3Ig
+dGhhdCBjYXRlZ29yeS4gIE91ciBzZWFyY2ggcGx1Z2luIHdpbGwgZXZlbiBwZXJmb3JtIGEgc2Vh
+cmNoIG9uIGp1c3QgdGhlIGRvY3VtZW50cyBpbiB0aGUgc2VsZWN0ZWQgY2F0ZWdvcnkugQKDBAEA
+hf8IAAEAAAqBAoL/WgACAAAAAAAAAAAAoAUAAKAFCADQAqAFcAhACxAO4BCwE4AWAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAEAAAAAlISgBQoAoAUKAAAAZAABAAAABAAAAIMEAgCF/0EAAQAACk5v
+dGUgdGhhdCB0aGUganMgaXMgbm90IG1pbmlmaWVkIHNvIGl0IGlzIHJlYWRhYmxlLiAgU2VlIADd
+BgAArf9+/wwAIAAIAAAAAAD2/zEAAAAAAAEAAAAXAAAAAAAAAAAAAAAAAHNpbmdsZWNhdGVnb3J5
+LXZpZXdzLmpzAK3/JAALAAgQAAAYAHNpbmdsZWNhdGVnb3J5LXZpZXdzLmpzAN0GAACF/4X/HwAB
+AAQKc2luZ2xlY2F0ZWdvcnktdmlld3MuanMA0ggJAAAA/wDeBgAAhf+uAt4GAACuAIX/CQABAAAK
+LgCBAoMEAQDM/wgAAAAAAIX/DgABAAAKPC9kaXY+zf8IAAAAAACF/wgAAQAACg==
+</rawitemdata></item>
+<item name='$V5ACTIONS' sign='true'>
+<rawitemdata type='1'>
+vRwjAAAAAQABAAAAAQAAAAAAAAAAAAAACAACAHn/bAABANTQyAABAAAAAAAJAAAAAAABANTQyAAA
+AB8AAAAAAAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAPz/OgAAAAAAAQAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAEAAAAAAAAAAAAAAAAAAAA=
+</rawitemdata></item>
+<item name='$ACTIONS' sign='true'>
+<rawitemdata type='1'>
+vRwjAAAAAQABAAAAAQAAAAAAAAAAAAAACAACAA==
+</rawitemdata></item></note>
+

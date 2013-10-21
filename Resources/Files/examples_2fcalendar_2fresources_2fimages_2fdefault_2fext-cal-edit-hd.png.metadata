@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="3.0" replicaid="86257B2E00116506" version="8.5" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="406" sequence="16" unid="CE1243043D7D4BC785257B4D0017D384">
+<created><datetime dst="true">20130414T002014,76-04</datetime></created>
+<modified><datetime dst="true">20131021T110446,94-05</datetime></modified>
+<revised><datetime dst="true">20130415T113203,08-04</datetime></revised>
+<lastaccessed><datetime dst="true">20131021T110446,94-05</datetime></lastaccessed>
+<addedtofile><datetime dst="true">20131021T110446,94-05</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Jack Ratcliff/O=BlueCuda</name></updatedby>
+<revisions><datetime dst="true">20130414T002014,82-04</datetime><datetime dst="true">20130414T002014,84-04</datetime><datetime dst="true">20130414T003446,69-04</datetime><datetime dst="true">20130414T003953,13-04</datetime><datetime dst="true">20130414T004941,75-04</datetime><datetime dst="true">20130414T011101,41-04</datetime><datetime dst="true">20130414T011758,87-04</datetime><datetime dst="true">20130414T011943,33-04</datetime><datetime dst="true">20130414T012247,37-04</datetime><datetime dst="true">20130414T012645,12-04</datetime><datetime dst="true">20130414T013204,82-04</datetime><datetime dst="true">20130414T020151,92-04</datetime><datetime dst="true">20130414T222910,03-04</datetime><datetime dst="true">20130415T000553,02-04</datetime><datetime dst="true">20130415T112735,46-04</datetime></revisions>
+<item name="$TITLE"><textlist><text>examples/calendar/resources/images/default/ext-cal-edit-hd.png</text></textlist></item>
+<item name="$Flags"><text>345CgQ</text></item>
+<item name="$DesignerVersion"><text>6</text></item>
+<item name="$FileNames"><textlist><text>ext-cal-edit-hd.png</text></textlist></item>
+
+
+<item name="$FileModDT"><datetime dst="true">20130415T113203,08-04</datetime></item>
+<item name="$MimeType"><text>image/png</text></item></note>

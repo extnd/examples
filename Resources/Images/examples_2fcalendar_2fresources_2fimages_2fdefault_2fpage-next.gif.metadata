@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="3.0" replicaid="86257B2E00116506" version="8.5" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="3ce" sequence="16" unid="3A9502A8BC54111585257B4D0017D395">
+<created><datetime dst="true">20130414T002014,93-04</datetime></created>
+<modified><datetime dst="true">20131021T110446,43-05</datetime></modified>
+<revised><datetime dst="true">20130415T113202,83-04</datetime></revised>
+<lastaccessed><datetime dst="true">20131021T110446,43-05</datetime></lastaccessed>
+<addedtofile><datetime dst="true">20131021T110446,43-05</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Jack Ratcliff/O=BlueCuda</name></updatedby>
+<revisions><datetime dst="true">20130414T002015,00-04</datetime><datetime dst="true">20130414T002015,02-04</datetime><datetime dst="true">20130414T003446,47-04</datetime><datetime dst="true">20130414T003952,89-04</datetime><datetime dst="true">20130414T004941,51-04</datetime><datetime dst="true">20130414T011101,16-04</datetime><datetime dst="true">20130414T011758,64-04</datetime><datetime dst="true">20130414T011943,09-04</datetime><datetime dst="true">20130414T012247,14-04</datetime><datetime dst="true">20130414T012644,88-04</datetime><datetime dst="true">20130414T013204,59-04</datetime><datetime dst="true">20130414T020151,69-04</datetime><datetime dst="true">20130414T222909,79-04</datetime><datetime dst="true">20130415T000552,78-04</datetime><datetime dst="true">20130415T112735,22-04</datetime></revisions>
+<item name="$TITLE"><textlist><text>examples/calendar/resources/images/default/page-next.gif</text></textlist></item>
+<item name="$Flags"><text>34CiQ</text></item>
+<item name="$ImagesColorize"><number>0</number></item>
+<item name="$ImagesHigh"><number>1</number></item>
+<item name="$ImagesWide"><number>1</number></item>
+<item name="$DesignerVersion"><text>6</text></item>
+<item name="$ImageNames"><textlist><text>page-next.gif</text></textlist></item>
+
+
+<item name="$FileModDT"><datetime dst="true">20130415T113202,83-04</datetime></item>
+<item name="$MimeType"><text>image/gif</text></item></note>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="3.0" replicaid="86257B2E00116506" version="8.5" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="43a" sequence="41" unid="A1117F6604D931EB85257B4100105A30">
+<created><datetime dst="true">20130401T225836,64-04</datetime></created>
+<modified><datetime dst="true">20131021T110447,20-05</datetime></modified>
+<revised><datetime dst="true">20130415T113159,05-04</datetime></revised>
+<lastaccessed><datetime dst="true">20131021T110447,20-05</datetime></lastaccessed>
+<addedtofile><datetime dst="true">20131021T110447,20-05</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Jack Ratcliff/O=BlueCuda</name></updatedby>
+<revisions><datetime dst="true">20130401T225836,70-04</datetime><datetime dst="true">20130401T225836,72-04</datetime><datetime dst="true">20130402T100405,70-04</datetime><datetime dst="true">20130407T230308,17-04</datetime><datetime dst="true">20130407T230547,16-04</datetime><datetime dst="true">20130407T230629,99-04</datetime><datetime dst="true">20130407T230748,17-04</datetime><datetime dst="true">20130408T000036,84-04</datetime><datetime dst="true">20130408T110016,89-04</datetime><datetime dst="true">20130408T113305,60-04</datetime><datetime dst="true">20130408T113603,89-04</datetime><datetime dst="true">20130408T114249,60-04</datetime><datetime dst="true">20130408T224436,59-04</datetime><datetime dst="true">20130408T224721,51-04</datetime><datetime dst="true">20130408T230311,41-04</datetime><datetime dst="true">20130408T231357,05-04</datetime><datetime dst="true">20130408T231620,71-04</datetime><datetime dst="true">20130410T175703,61-04</datetime><datetime dst="true">20130410T180055,42-04</datetime><datetime dst="true">20130413T224749,06-04</datetime><datetime dst="true">20130413T225331,70-04</datetime><datetime dst="true">20130413T230554,11-04</datetime><datetime dst="true">20130413T231811,95-04</datetime><datetime dst="true">20130413T231954,01-04</datetime><datetime dst="true">20130413T233013,17-04</datetime><datetime dst="true">20130413T233117,94-04</datetime><datetime dst="true">20130413T234614,53-04</datetime><datetime dst="true">20130414T003443,01-04</datetime><datetime dst="true">20130414T003949,38-04</datetime><datetime dst="true">20130414T004938,00-04</datetime><datetime dst="true">20130414T011057,63-04</datetime><datetime dst="true">20130414T011755,16-04</datetime><datetime dst="true">20130414T011939,62-04</datetime><datetime dst="true">20130414T012243,64-04</datetime><datetime dst="true">20130414T012641,41-04</datetime><datetime dst="true">20130414T013201,12-04</datetime><datetime dst="true">20130414T020148,17-04</datetime><datetime dst="true">20130414T222906,23-04</datetime><datetime dst="true">20130415T000549,08-04</datetime><datetime dst="true">20130415T112730,54-04</datetime></revisions>
+<item name="$TITLE"><textlist><text>examples/grid/categorized-view.js</text></textlist></item>
+<item name="$Flags"><text>345CgQ</text></item>
+<item name="$DesignerVersion"><text>6</text></item>
+<item name="$FileNames"><textlist><text>categorized-view.js</text></textlist></item>
+
+
+<item name="$FileModDT"><datetime dst="true">20130415T113159,05-04</datetime></item>
+<item name="$MimeType"><text>application/javascript</text></item></note>

@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE note SYSTEM 'xmlschemas/domino_8_5_3.dtd'>
+<note class='form' xmlns='http://www.lotus.com/dxl' version='8.5' maintenanceversion='3.0'
+ replicaid='86257B2E00116506'>
+<noteinfo noteid='40e' unid='F29471778534556A86257B47004D28CD' sequence='5'>
+<created><datetime dst='true'>20130408T090247,17-05</datetime></created>
+<modified><datetime dst='true'>20131021T110446,98-05</datetime></modified>
+<revised><datetime dst='true'>20130408T100343,68-05</datetime></revised>
+<lastaccessed><datetime dst='true'>20131021T110446,98-05</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20131021T110446,98-05</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Jack Ratcliff/OU=A55DE6/O=Prominic</name></updatedby>
+<revisions><datetime dst='true'>20130408T090402,90-05</datetime><datetime
+ dst='true'>20130408T090505,46-05</datetime><datetime dst='true'>20130408T100343,35-05</datetime><datetime
+ dst='true'>20130408T100343,52-05</datetime></revisions>
+<wassignedby><name>CN=Jack Ratcliff/OU=A55DE6/O=Prominic</name></wassignedby>
+<item name='$HTMLCode' sign='true'>
+<rawitemdata type='1'>
+X/8QAAIADwAHAAAAAAAAAA==
+</rawitemdata></item>
+<item name='$Info' sign='true'>
+<rawitemdata type='1'>
+hhgBAIAAAAAAgAAAAQABAP///wAQAAAA
+</rawitemdata></item>
+<item name='$WindowTitle' sign='true'><formula>"Extnd Example"</formula></item>
+<item name='$HTMLHeadTag' sign='true'><formula>thisWebDbName := @WebDbName;
+extUrl := @GetProfileField("Extnd.Profile";"extUrl");
+extndUrl := @GetProfileField("Extnd.Profile";"extndUrl");
+debug := @If(@UrlQueryString("debug") = "true"; "-debug"; "");
+
+@NewLine + "&lt;!-- CSS --&gt;" + @NewLine +
+"&lt;link rel='stylesheet' type='text/css' href='" + extUrl + "resources/css/ext-all.css' /&gt;" + @NewLine +
+"&lt;link rel='stylesheet' type='text/css' href='" + extndUrl + "resources/css/domino.css' /&gt;" + @NewLine +
+
+@NewLine + "&lt;!-- Ext JS library --&gt;" + @NewLine +
+"&lt;script type='text/javascript' src='" + extUrl + "ext-all" + debug + ".js'&gt;&lt;/script&gt;" + @NewLine +
+
+@NewLine + "&lt;!-- Extnd JS library --&gt;" + @NewLine +
+"&lt;script type='text/javascript' src='" + extndUrl + "extnd-all" + debug + ".js'&gt;&lt;/script&gt;" + @NewLine +
+"&lt;script type='text/javascript' src='" + extndUrl + "Session.js?OpenAgent&amp;db=" + thisWebDbName + "'&gt;&lt;/script&gt;" + @NewLine +
+
+@NewLine + "&lt;!-- demo code --&gt;" + @NewLine +
+"&lt;script type='text/javascript' src='ViewSourceButton.js'&gt;&lt;/script&gt;" + @NewLine +
+"&lt;script type='text/javascript' src='index.js'&gt;&lt;/script&gt;" + @NewLine</formula></item>
+<item name='$Flags'><text>C34WQ</text></item>
+<item name='$$ScriptName' summary='false' sign='true'><text>examples/index.js</text></item>
+<item name='$Body' sign='true'>
+<rawitemdata type='1'>
+gQKC/1oAAQAAAAAAAAAAAKAFAACgBQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAABAAAAAJSHAAAAAAAAAAAAAAAAAQAAAAQAAACDBAEAhf8IAAEAAAo=
+</rawitemdata></item>
+<item name='$TITLE' sign='true'><text>examples/index.html</text></item>
+<item name='$DesignerVersion' sign='true'><text>7</text></item></note>
+

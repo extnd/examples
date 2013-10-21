@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE note SYSTEM 'xmlschemas/domino_8_5_3.dtd'>
+<note class='form' xmlns='http://www.lotus.com/dxl' version='8.5' maintenanceversion='3.0'
+ replicaid='86257B2E00116506'>
+<noteinfo noteid='32e' unid='C15514F297C9EF9586257B3C0016C221' sequence='17'>
+<created><datetime dst='true'>20130327T230834,89-05</datetime></created>
+<modified><datetime dst='true'>20131021T110445,21-05</datetime></modified>
+<revised><datetime dst='true'>20130401T222359,58-05</datetime></revised>
+<lastaccessed><datetime dst='true'>20131021T110445,21-05</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20131021T110445,21-05</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Jack Ratcliff/O=BlueCuda</name><name>CN=Jack Ratcliff/OU=A55DE6/O=Prominic</name></updatedby>
+<revisions><datetime dst='true'>20130401T160958,46-05</datetime><datetime
+ dst='true'>20130401T214250,76-05</datetime></revisions>
+<wassignedby><name>CN=Jack Ratcliff/OU=A55DE6/O=Prominic</name></wassignedby>
+<item name='$HTMLCode' sign='true'>
+<rawitemdata type='1'>
+X/8QAAIADwAHAAAAAAAAAA==
+</rawitemdata></item>
+<item name='$TITLE'><text>examples/grid/buffered-grid.html</text></item>
+<item name='$Info' sign='true'>
+<rawitemdata type='1'>
+hhgBAIAAAAAAgAAAAQABAP///wAQAAAA
+</rawitemdata></item>
+<item name='$WindowTitle' sign='true'><formula>"Buffered Rendered Grid"</formula></item>
+<item name='$HTMLHeadTag' sign='true'><formula>thisWebDbName := @WebDbName;
+extUrl := @GetProfileField("Extnd.Profile";"extUrl");
+extndUrl := @GetProfileField("Extnd.Profile";"extndUrl");
+debug := @If(@UrlQueryString("debug") = "true"; "-debug"; "");
+
+@NewLine + "&lt;!-- CSS --&gt;" + @NewLine +
+"&lt;link rel='stylesheet' type='text/css' href='" + extUrl + "resources/css/ext-all.css' /&gt;" + @NewLine +
+"&lt;link rel='stylesheet' type='text/css' href='" + extndUrl + "resources/css/domino.css' /&gt;" + @NewLine +
+
+@NewLine + "&lt;!-- Ext JS library --&gt;" + @NewLine +
+"&lt;script type='text/javascript' src='" + extUrl + "ext-all" + debug + ".js'&gt;&lt;/script&gt;" + @NewLine +
+
+@NewLine + "&lt;!-- Extnd JS library --&gt;" + @NewLine +
+"&lt;script type='text/javascript' src='" + extndUrl + "extnd-all" + debug + ".js'&gt;&lt;/script&gt;" + @NewLine +
+"&lt;script type='text/javascript' src='" + extndUrl + "Session.js?OpenAgent&amp;db=" + thisWebDbName + "'&gt;&lt;/script&gt;" + @NewLine +
+
+@NewLine + "&lt;!-- demo code --&gt;" + @NewLine +
+"&lt;script type='text/javascript' src='/" + thisWebDbName + "/examples/ViewSourceButton.js'&gt;&lt;/script&gt;" + @NewLine +
+"&lt;script type='text/javascript' src='buffered-grid.js'&gt;&lt;/script&gt;"</formula></item>
+<item name='$Flags'><text>C34WQ</text></item>
+<item name='$DesignerVersion'><text>7</text></item>
+<item name='$$ScriptName' summary='false' sign='true'><text>demos/buffered-grid.html</text></item>
+<item name='$Body' sign='true'>
+<rawitemdata type='1'>
+gQKC/1oAAQAAAAAAAAAAAKAFAACgBQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAABAAAAAJSHAAAAAAAAAAAAAAAAAQAAAAQAAACDBAEAhf8IAAEAAAqBAoMEAQCF/wgA
+AQAACoECgwQBAIX/CAABAAAKgQKDBAEAzP8IAAAAAACF/x4AAQAACjxkaXYgaWQ9ImRlc2NyaXB0
+aW9uIj6BAoL/WgACAAAAAAAAAAAAoAUAAKAFCADQAqAFcAhACxAO4BCwE4AWAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAEAAAAAlISgBQoAoAUKAAAAZAABAAAABAAAAIMEAgCF/wgAAQAACs3/CAAA
+AAAAgQKDBAIAhf9rAQEAAApCZWdpbm5pbmcgd2l0aCB0aGUgRXh0IEpTIDQuMiByZWxlYXNlLCB0
+aGVyZSBpcyBhIG5ldyBhbmQgaW1wcm92ZWQgd2F5IG9mIHN1cHBvcnRpbmcgdmVyeSBsYXJnZSBk
+YXRhc2V0cyBpbiBhIGdyaWQgd2l0aG91dCB0aGUgdXNlIG9mIGEgcGFnaW5nIHRvb2xiYXIuICBU
+aGlzIGlzIGRvbmUgd2l0aCB0aGUgRXh0LmdyaWQucGx1Z2luLkJ1ZmZlcmVkUmVuZGVyZXIgcGx1
+Z2luIHdoaWNoIGFsbG93cyB1c2VycyB0byBzY3JvbGwgdGhyb3VnaCB0aG91c2FuZHMgb2YgcmVj
+b3JkcyB3aXRob3V0IHRoZSBwZXJmb3JtYW5jZSBwZW5hbGl0aWVzIG9mIHJlbmRlcmluZyBhbGwg
+dGhlIHJlY29yZHMgb24gc2NyZWVuIGF0IG9uY2UuAIECgwQCAIX/CAABAAAKgQKDBAIAhf8hAgEA
+AApUbyBjb25maWd1cmUgYW4gRXh0bmQuVUlWaWV3IHRvIHVzZSB0aGlzIHBsdWdpbiwgYWxsIHlv
+dSBuZWVkIHRvIGRvIGlzIGFkZCB0aGUgcGx1Z2luIHRvIHlvdXIgY29uZmlnIGFuZCBzZXQgdGhl
+IHBhZ2VTaXplIG9mIHRoZSBzdG9yZSB0byBhIHZhbHVlIG9mIHRoZSBudW1iZXIgdGhlIHJvd3Mg
+eW91IHdhbnQgcmV0dXJuZWQuICBTZXR0aW5nIHBhZ2VTaXplIChvciBjb3VudCkgdG8gLTEgYWRk
+cyBhICZjb3VudD0tMSBwYXJhbSB0byB0aGUgP1JlYWRWaWV3RW50cmllcyB1cmwgc3RyaW5nIGFu
+ZCB0aGF0IHRlbGxzIERvbWlubyB0byByZXR1cm4gZXZlcnl0aGluZyAodXAgdG8gd2hhdGV2ZXIg
+dGhlIHNlcnZlciBjb25maWd1cmF0aW9uIGFsbG93cykuICBIb3dldmVyLCB1c2UgdGhpcyB3aXRo
+IGNhdXRpb24gc2luY2UgYW4gZXh0cmVtZWx5IGxhcmdlIHZpZXcgY291bGQgY2F1c2UgYW4gSFRU
+UCBvdXQgb2YgbWVtb3J5IGVycm9yIGFzIHRoZSBEb21pbm8gc2VydmVyIHRyaWVzIHRvIHJldHVy
+biBhbGwgb2YgdGhlIHJvd3Mgb2YgZGF0YS4AgQKDBAIAhf8IAAEAAAqBAoMEAgCF/3MBAQAACklm
+IHlvdSBoYXZlIGFuIDxzdHJvbmc+ZXh0cmVtZWx5PC9zdHJvbmc+IGxhcmdlIHZpZXcsIHRoZW4g
+aXQgbWlnaHQgbm90IGJlIGZlYXNpYmxlIHRvIGxvYWQgZXZlcnl0aGluZy4gIElmIHRoYXQgaXMg
+dGhlIGNhc2UgdGhlbiB5b3UgY2FuIHVzZSBhIGJ1ZmZlcmVkIHN0b3JlIHdoaWNoIHdpbGwgcHJv
+dmlkZSB5b3Ugd2l0aCB0aGUgYWJpbGl0eSB0byBpbmZpbml0ZWx5IHNjcm9sbCB5b3VyIGRhdGEg
+YnV0IG5vdCBhbGwgZ3JpZCBmZWF0dXJlcyBjYW4gYmUgc3VwcG9ydGVkIHdpdGggdGhpcyB0eXBl
+IG9mIHN0b3JlIChzdWNoIGFzIGdyb3VwaW5nLCBjbGllbnQgc2lkZSBzb3J0aW5nIGFuZCBjbGll
+bnQtc2lkZSBmaWx0ZXJpbmcpLgCBAoMEAgCF/wgAAQAACoECgwQCAIX/QQABAAAKTm90ZSB0aGF0
+IHRoZSBqcyBpcyBub3QgbWluaWZpZWQgc28gaXQgaXMgcmVhZGFibGUuICBTZWUgAN0GAACt/37/
+DAAgAAgAAAAAAPb/KgAAAAAAAQAAABAAAAAAAAAAAAAAAAAAYnVmZmVyZWQtZ3JpZC5qc63/HQAL
+AAgQAAARAGJ1ZmZlcmVkLWdyaWQuanMAAN0GAACF/4X/GAABAAQKYnVmZmVyZWQtZ3JpZC5qc9II
+CQAAAP8A3gYAAIX/rgLeBgAArgCF/wkAAQAACi4AgQKDBAIAzP8IAAAAAACF/wgAAQAACoECgwQC
+AIX/DgABAAAKPC9kaXY+zf8IAAAAAAA=
+</rawitemdata></item>
+<item name='$V5ACTIONS' sign='true'>
+<rawitemdata type='1'>
+vRwjAAAAAQABAAAAAQAAAAAAAAAAAAAACAACAHn/bAABANTQyAABAAAAAAAJAAAAAAABANTQyAAA
+AB8AAAAAAAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAPz/OgAAAAAAAQAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAEAAAAAAAAAAAAAAAAAAAA=
+</rawitemdata></item></note>
+

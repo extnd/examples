@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE note SYSTEM 'xmlschemas/domino_8_5_3.dtd'>
+<note class='form' xmlns='http://www.lotus.com/dxl' version='8.5' maintenanceversion='3.0'
+ replicaid='86257B2E00116506'>
+<noteinfo noteid='396' unid='F7502B7C6122E17586257B2F00191220' sequence='7'>
+<created><datetime dst='true'>20130314T233350,40-05</datetime></created>
+<modified><datetime dst='true'>20131021T110445,75-05</datetime></modified>
+<revised><datetime dst='true'>20130401T222400,65-05</datetime></revised>
+<lastaccessed><datetime dst='true'>20131021T110445,75-05</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20131021T110445,75-05</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Jack Ratcliff/O=BlueCuda</name><name>CN=Jack Ratcliff/OU=A55DE6/O=Prominic</name></updatedby>
+<revisions><datetime dst='true'>20130328T103516,40-05</datetime></revisions>
+<wassignedby><name>CN=Jack Ratcliff/OU=A55DE6/O=Prominic</name></wassignedby>
+<item name='$HTMLCode' sign='true'>
+<rawitemdata type='1'>
++f8gAAAAAAAPAAQAswMAAAAAAAAAAAAAAAAAAAAAAADc/8YD+f+0AyBOAAAAAAAAAAB2YXIgRm9y
+bXVsYURlbW8gPSBmdW5jdGlvbigpIHsNDQlyZXR1cm4gew0JDQkJaW5pdCA6IGZ1bmN0aW9uKCkg
+ew0JCQl0aGlzLnVpZG9jID0gbmV3IEV4dC5uZC5VSURvY3VtZW50KHsNCQkJCWJvZHlTdHlsZSA6
+ICdwYWRkaW5nOjIwcHg7Jw0JCQl9KTsNCQkJdGhpcy51aWRvYy5yZW5kZXIoKTsJCQ0JCX0sDQkJ
+DQkJcnVuRm9ybXVsYSA6IGZ1bmN0aW9uKCkgew0JCQkvLyBleGFtcGxlIG9uIGhvdyB0byBnZXQg
+dmFsdWVzIGZyb20gZmllbGRzDQkJCQ0JCQkvLyBmaWVsZEdldFRleHQgaXMganVzdCBsaWtlIGlu
+IExvdHVzU2NyaXB0DQkJCXZhciBkYiA9IHRoaXMudWlkb2MuZmllbGRHZXRUZXh0KCdkYicpOw0J
+CQlkYiA9IChkYiAhPT0gJycpID8gZGIgOiBudWxsOw0JCQkNCQkJLy8gZ2V0Rm9ybSgpLmZpbmRG
+aWVsZCgpLmdldFZhbHVlKCkgaXMgdGhlIG5vcm1hbCBFeHQgd2F5DQkJCXZhciB1bmlkID0gdGhp
+cy51aWRvYy5nZXRGb3JtKCkuZmluZEZpZWxkKCJ1bmlkIikuZ2V0VmFsdWUoKTsNCQkJdW5pZCA9
+ICh1bmlkICE9PSAnJykgPyB1bmlkIDogbnVsbDsNCQkJDQkJCXZhciBmb3JtdWxhID0gdGhpcy51
+aWRvYy5maWVsZEdldFRleHQoJ2Zvcm11bGEnKTsNDQkJCUV4dC5uZC5Gb3JtdWxhLmV2YWx1YXRl
+KHsNCQkJCWRiIDogZGIsDQkJCQl1bmlkIDogdW5pZCwNCQkJCWZvcm11bGEgOiBmb3JtdWxhLA0J
+CQkJdW5pZCA6IHVuaWQsDQkJCQljYWxsYmFjayA6IHRoaXMuaGFuZGxlUmVzdWx0cw0JCQl9KTsN
+CQl9LA0NCQloYW5kbGVSZXN1bHRzIDogZnVuY3Rpb24ocmVzdWx0cywgcmVzLCByZXEpIHsNCQkJ
+Zm9yICh2YXIgaT0wOyBpPHJlc3VsdHMubGVuZ3RoOyBpKyspIHsNCQkJCWFsZXJ0KHJlc3VsdHNb
+aV0pOw0JCQl9DQkJfQkNCQ0JfSAvLyBlbyByZXR1cm4NDX0oKTsNRXh0Lm9uUmVhZHkoRm9ybXVs
+YURlbW8uaW5pdCwgRm9ybXVsYURlbW8pOw0NAGVf/xAAAgAPAAcAAAAAAAAA
+</rawitemdata></item>
+<item name='$Info' sign='true'>
+<rawitemdata type='1'>
+hhgBAIAAAAAAgAAAAQABAP///wAQAAAA
+</rawitemdata></item>
+<item name='$WindowTitle' sign='true'><formula>"Formula Demo"</formula></item>
+<item name='$HTMLHeadTag' sign='true'><formula>thisWebDbName := @WebDbName;
+extUrl := @GetProfileField("Extnd.Profile";"extUrl");
+extndUrl := @GetProfileField("Extnd.Profile";"extndUrl");
+debug := @If(@UrlQueryString("debug") = "true"; "-debug"; "");
+
+
+"&lt;!-- Ext JS library --&gt;" + @NewLine +
+"&lt;script type='text/javascript' src='" + extUrl + "ext-all" + debug + ".js'&gt;&lt;/script&gt;" + @NewLine +
+
+"&lt;!-- Extnd JS library --&gt;" + @NewLine +
+"&lt;script type='text/javascript' src='" + extndUrl + "extnd-all" + debug + ".js'&gt;&lt;/script&gt;" + @NewLine +
+"&lt;script type='text/javascript' src='" + extndUrl + "Session.js?OpenAgent&amp;db=" + thisWebDbName + "'&gt;&lt;/script&gt;" + @NewLine +
+
+"&lt;link rel='stylesheet' type='text/css' href='" + extUrl + "resources/css/ext-all.css' /&gt;" + @NewLine +
+"&lt;link rel='stylesheet' type='text/css' href='" + extndUrl + "resources/css/domino.css' /&gt;"</formula></item>
+<item name='$Flags'><text>C34WQ</text></item>
+<item name='$$ScriptName' summary='false' sign='true'><text>demos/formula.html</text></item>
+<item name='$Body' sign='true'>
+<rawitemdata type='1'>
+gQKC/1oAAQAAAAAAAAAAAKAFAACgBQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAABAAAAAJSHAAAAAAAAAAAAAAAAAQAAAAQAAACDBAEAzP8IAAAAAACF/yAAAQAACjxo
+MT5Gb3JtdWxhIEV4YW1wbGU8L2gxPoECgwQBAIX/jwABAAAKPHA+VHlwZSBpbiB5b3VyIEBmb3Jt
+dWxhIGFuZCB0aGVuIGNsaWNrIHRoZSAnRXhlY3V0ZScgdG8gaGF2ZSB0aGlzIGZvcm11bGEgZXhl
+Y3V0ZWQgb24gdGhlIHNlcnZlciBmb3IgeW91IGFuZCB0aGUgcmVzdWx0cyByZXR1cm5lZC48L3A+
+AIECgwQBAIX/CAABAAAKzf8IAAAAAACBAoMEAQCF/woAAQAACmRigQKDBAEAzP8IAAAAAACF/0EA
+AQAACjxici8+PGlucHV0IHR5cGU9J3RleHQnIGlkPSdkYicgbmFtZT0nZGInIHZhbHVlPScnLz48
+YnIvPgDN/wgAAAAAAIECgwQBAIX/DAABAAAKdW5pZIECgwQBAMz/CAAAAAAAhf9GAAEAAAo8YnIv
+PjxpbnB1dCB0eXBlPSd0ZXh0JyBpZD0ndW5pZCcgbmFtZSA9J3VuaWQnIHZhbHVlPScnLz48YnIv
+Ps3/CAAAAAAAgQKDBAEAhf8PAAEAAApmb3JtdWxhAIECgwQBAMz/CAAAAAAAhf9HAAEAAAo8YnIv
+Pjx0ZXh0YXJlYSBpZD0nZm9ybXVsYScgbmFtZT0nZm9ybXVsYSc+QHVzZXJuYW1lPC90ZXh0YXJl
+YT4AgQKDBAEAhf8IAAEAAArN/wgAAAAAAIECgwQBAIX/CAABAAAKgQKDBAEAzP8IAAAAAACF/wgA
+AQAACs3/CAAAAAAA
+</rawitemdata></item>
+<item name='$V5ACTIONS' sign='true'>
+<rawitemdata type='1'>
+vRwjAAAAAQABAAAAAQAAAAAAAAAAAAAACAACAHn/bAABANTQyAABAAAAAAAJAAAAAAABANTQyAAA
+AB8AAAAAAAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAPz/OgAAAAAAAQAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAEAAAAAAAAAAAAAAAAAAAC+/x4AAAAHAAAAnwEAAAcAAAAAAAAARXhlY3V0ZWn5/yAA
+AAAAAAEABAAZAAAAAAAAAAAAAAAAAAAAAAAAANz/LAD5/xoAIE4AAAAAAAAAAEZvcm11bGFEZW1v
+LnJ1bkZvcm11bGEoKQB0X/8QAAIAAQAHAAAAAAAAAL7/WAAAAAEAAACfAQAAIQAAAAAAAABDbG9z
+ZVxAQ29tbWFuZChbRmlsZUNsb3NlV2luZG93XSkAIAAAABIAAgD8EQAAAAAAAO0BAwAHAAwABQAJ
+MFMwRQC+/zoAAAAHAAAAnwEAACMAAAAAAAAAQ2xvc2VcdGhpcy5nZXRVSURvY3VtZW50KCkuY2xv
+c2UoKTsA+f8gAAAAAAABAAQAHgAAAAAAAAAAAAAAAAAAAAAAAADc/zAA+f8eACBOAAAAAAAAAAB0
+aGlzLmdldFVJRG9jdW1lbnQoKS5jbG9zZSgpOwBf/xAAAgABAAcAAAAAAAAA
+</rawitemdata></item>
+<item name='$ACTIONS' sign='true'>
+<rawitemdata type='1'>
+vRwjAAAAAQABAAAAAQAAAAAAAAAAAAAACAACAL7/HgAAAAcAAACfAQAABwAAAAAAAABFeGVjdXRl
+/b7/WAAAAAEAAACfAQAAIQAAAAAAAABDbG9zZVxAQ29tbWFuZChbRmlsZUNsb3NlV2luZG93XSkA
+IAAAABIAAgD8EQAAAAAAAO0BAwAHAAwABQAJMFMwRQC+/zoAAAAHAAAAnwEAACMAAAAAAAAAQ2xv
+c2VcdGhpcy5nZXRVSURvY3VtZW50KCkuY2xvc2UoKTsA
+</rawitemdata></item>
+<item name='$TITLE' sign='true'><text>examples/misc/formula.html</text></item>
+<item name='$DesignerVersion' sign='true'><text>7</text></item></note>
+

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="3.0" replicaid="86257B2E00116506" version="8.5" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="242" sequence="2" unid="AC0A1F121F8C4351852575C9005E198B">
+<created><datetime dst="true">20090602T130749,23-04</datetime></created>
+<modified><datetime dst="true">20131021T110406,93-05</datetime></modified>
+<revised><datetime dst="true">20130322T153120,36-05</datetime></revised>
+<lastaccessed><datetime dst="true">20131021T110406,93-05</datetime></lastaccessed>
+<addedtofile><datetime dst="true">20131021T110406,93-05</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Jack Ratcliff/O=BlueCuda</name><name>CN=Jack Ratcliff/OU=A55DE6/O=Prominic</name></updatedby>
+<wassignedby><name>CN=Jack Ratcliff/OU=A55DE6/O=Prominic</name></wassignedby>
+<item name="$TITLE"><text>xrm-uiview.js</text></item>
+<item name="$Flags"><text>345CgQ</text></item>
+<item name="$FlagsExt" sign="true"><text>D</text></item>
+
+<item name="$FileModDT" sign="true"><datetime dst="true">20090602T130415,55-04</datetime></item>
+
+<item name="$FileNames" sign="true"><text>xrm-uiview.js</text></item>
+<item name="$DesignerVersion" sign="true"><text>7</text></item></note>

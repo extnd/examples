@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="3.0" replicaid="86257B2E00116506" version="8.5" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="41a" sequence="16" unid="DDDFE51137D4641685257B4D0017D491">
+<created><datetime dst="true">20130414T002017,45-04</datetime></created>
+<modified><datetime dst="true">20131021T110447,04-05</datetime></modified>
+<revised><datetime dst="true">20130415T113205,00-04</datetime></revised>
+<lastaccessed><datetime dst="true">20131021T110447,04-05</datetime></lastaccessed>
+<addedtofile><datetime dst="true">20131021T110447,04-05</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Jack Ratcliff/O=BlueCuda</name></updatedby>
+<revisions><datetime dst="true">20130414T002017,89-04</datetime><datetime dst="true">20130414T002017,91-04</datetime><datetime dst="true">20130414T003449,05-04</datetime><datetime dst="true">20130414T003955,11-04</datetime><datetime dst="true">20130414T004943,73-04</datetime><datetime dst="true">20130414T011103,52-04</datetime><datetime dst="true">20130414T011800,98-04</datetime><datetime dst="true">20130414T011945,42-04</datetime><datetime dst="true">20130414T012249,22-04</datetime><datetime dst="true">20130414T012647,15-04</datetime><datetime dst="true">20130414T013206,84-04</datetime><datetime dst="true">20130414T020154,08-04</datetime><datetime dst="true">20130414T222912,12-04</datetime><datetime dst="true">20130415T000555,00-04</datetime><datetime dst="true">20130415T112737,49-04</datetime></revisions>
+<item name="$TITLE"><textlist><text>examples/calendar/src/dd/DayDropZone.js</text></textlist></item>
+<item name="$Flags"><text>345CgQ</text></item>
+<item name="$DesignerVersion"><text>6</text></item>
+<item name="$FileNames"><textlist><text>DayDropZone.js</text></textlist></item>
+
+
+<item name="$FileModDT"><datetime dst="true">20130415T113205,00-04</datetime></item>
+<item name="$MimeType"><text>application/javascript</text></item></note>

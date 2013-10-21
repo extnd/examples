@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="3.0" replicaid="86257B2E00116506" version="8.5" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="412" sequence="28" unid="E2B269BE754C372A85257B4700556D6B">
+<created><datetime dst="true">20130408T113305,71-04</datetime></created>
+<modified><datetime dst="true">20131021T110447,00-05</datetime></modified>
+<revised><datetime dst="true">20130415T113212,80-04</datetime></revised>
+<lastaccessed><datetime dst="true">20131021T110447,00-05</datetime></lastaccessed>
+<addedtofile><datetime dst="true">20131021T110447,00-05</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Jack Ratcliff/O=BlueCuda</name></updatedby>
+<revisions><datetime dst="true">20130408T113305,79-04</datetime><datetime dst="true">20130408T113305,81-04</datetime><datetime dst="true">20130408T113604,03-04</datetime><datetime dst="true">20130408T114249,71-04</datetime><datetime dst="true">20130408T224436,72-04</datetime><datetime dst="true">20130408T224721,62-04</datetime><datetime dst="true">20130408T230311,54-04</datetime><datetime dst="true">20130408T231357,16-04</datetime><datetime dst="true">20130408T231620,82-04</datetime><datetime dst="true">20130410T175703,74-04</datetime><datetime dst="true">20130410T180055,56-04</datetime><datetime dst="true">20130413T224749,59-04</datetime><datetime dst="true">20130413T225332,28-04</datetime><datetime dst="true">20130413T230554,75-04</datetime><datetime dst="true">20130414T003457,56-04</datetime><datetime dst="true">20130414T004016,44-04</datetime><datetime dst="true">20130414T004952,84-04</datetime><datetime dst="true">20130414T011111,74-04</datetime><datetime dst="true">20130414T011809,23-04</datetime><datetime dst="true">20130414T011954,05-04</datetime><datetime dst="true">20130414T012257,56-04</datetime><datetime dst="true">20130414T012655,54-04</datetime><datetime dst="true">20130414T013215,12-04</datetime><datetime dst="true">20130414T020202,92-04</datetime><datetime dst="true">20130414T222921,00-04</datetime><datetime dst="true">20130415T000603,55-04</datetime><datetime dst="true">20130415T112746,83-04</datetime></revisions>
+<item name="$TITLE"><textlist><text>examples/DescriptionPanel.js</text></textlist></item>
+<item name="$Flags"><text>345CgQ</text></item>
+<item name="$DesignerVersion"><text>6</text></item>
+<item name="$FileNames"><textlist><text>DescriptionPanel.js</text></textlist></item>
+
+
+<item name="$FileModDT"><datetime dst="true">20130415T113212,80-04</datetime></item>
+<item name="$MimeType"><text>application/javascript</text></item></note>

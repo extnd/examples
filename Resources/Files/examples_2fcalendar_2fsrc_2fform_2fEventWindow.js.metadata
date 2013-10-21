@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="3.0" replicaid="86257B2E00116506" version="8.5" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="2e2" sequence="17" unid="3F1C539E0FBBBA2185257B4D0017C8F2">
+<created><datetime dst="true">20130414T001947,70-04</datetime></created>
+<modified><datetime dst="true">20131021T110444,82-05</datetime></modified>
+<revised><datetime dst="true">20130415T113207,35-04</datetime></revised>
+<lastaccessed><datetime dst="true">20131021T110444,82-05</datetime></lastaccessed>
+<addedtofile><datetime dst="true">20131021T110444,82-05</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Jack Ratcliff/O=BlueCuda</name></updatedby>
+<revisions><datetime dst="true">20130414T001948,23-04</datetime><datetime dst="true">20130414T001948,25-04</datetime><datetime dst="true">20130414T002020,01-04</datetime><datetime dst="true">20130414T003451,62-04</datetime><datetime dst="true">20130414T003957,80-04</datetime><datetime dst="true">20130414T004946,40-04</datetime><datetime dst="true">20130414T011105,72-04</datetime><datetime dst="true">20130414T011803,25-04</datetime><datetime dst="true">20130414T011948,02-04</datetime><datetime dst="true">20130414T012251,83-04</datetime><datetime dst="true">20130414T012649,54-04</datetime><datetime dst="true">20130414T013209,29-04</datetime><datetime dst="true">20130414T020156,78-04</datetime><datetime dst="true">20130414T222914,91-04</datetime><datetime dst="true">20130415T000557,49-04</datetime><datetime dst="true">20130415T112740,24-04</datetime></revisions>
+<item name="$TITLE"><textlist><text>examples/calendar/src/form/EventWindow.js</text></textlist></item>
+<item name="$Flags"><text>345CgQ</text></item>
+<item name="$DesignerVersion"><text>6</text></item>
+<item name="$FileNames"><textlist><text>EventWindow.js</text></textlist></item>
+
+
+<item name="$FileModDT"><datetime dst="true">20130415T113207,35-04</datetime></item>
+<item name="$MimeType"><text>application/javascript</text></item></note>

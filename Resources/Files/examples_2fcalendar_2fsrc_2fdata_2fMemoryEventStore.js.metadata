@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="3.0" replicaid="86257B2E00116506" version="8.5" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="3de" sequence="17" unid="2D2254AFED34FD8485257B4D0017C857">
+<created><datetime dst="true">20130414T001946,15-04</datetime></created>
+<modified><datetime dst="true">20131021T110446,51-05</datetime></modified>
+<revised><datetime dst="true">20130415T113206,61-04</datetime></revised>
+<lastaccessed><datetime dst="true">20131021T110446,51-05</datetime></lastaccessed>
+<addedtofile><datetime dst="true">20131021T110446,51-05</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Jack Ratcliff/O=BlueCuda</name></updatedby>
+<revisions><datetime dst="true">20130414T001946,28-04</datetime><datetime dst="true">20130414T001946,30-04</datetime><datetime dst="true">20130414T002016,73-04</datetime><datetime dst="true">20130414T003450,70-04</datetime><datetime dst="true">20130414T003956,78-04</datetime><datetime dst="true">20130414T004945,39-04</datetime><datetime dst="true">20130414T011104,97-04</datetime><datetime dst="true">20130414T011802,41-04</datetime><datetime dst="true">20130414T011947,11-04</datetime><datetime dst="true">20130414T012250,78-04</datetime><datetime dst="true">20130414T012648,79-04</datetime><datetime dst="true">20130414T013208,29-04</datetime><datetime dst="true">20130414T020155,77-04</datetime><datetime dst="true">20130414T222913,83-04</datetime><datetime dst="true">20130415T000556,63-04</datetime><datetime dst="true">20130415T112739,22-04</datetime></revisions>
+<item name="$TITLE"><textlist><text>examples/calendar/src/data/MemoryEventStore.js</text></textlist></item>
+<item name="$Flags"><text>345CgQ</text></item>
+<item name="$DesignerVersion"><text>6</text></item>
+<item name="$FileNames"><textlist><text>MemoryEventStore.js</text></textlist></item>
+
+
+<item name="$FileModDT"><datetime dst="true">20130415T113206,61-04</datetime></item>
+<item name="$MimeType"><text>application/javascript</text></item></note>

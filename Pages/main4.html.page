@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE note SYSTEM 'xmlschemas/domino_8_5_3.dtd'>
+<note class='form' xmlns='http://www.lotus.com/dxl' version='8.5' maintenanceversion='3.0'
+ replicaid='86257B2E00116506'>
+<noteinfo noteid='36e' unid='EC91B37B3BDD780386257B2F00191231' sequence='3'>
+<created><datetime dst='true'>20130314T233350,57-05</datetime></created>
+<modified><datetime dst='true'>20131021T110445,53-05</datetime></modified>
+<revised><datetime dst='true'>20130322T153122,48-05</datetime></revised>
+<lastaccessed><datetime dst='true'>20131021T110445,53-05</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20131021T110445,53-05</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Jack Ratcliff/OU=A55DE6/O=Prominic</name></updatedby>
+<wassignedby><name>CN=Jack Ratcliff/OU=A55DE6/O=Prominic</name></wassignedby>
+<item name='$HTMLCode' sign='true'>
+<rawitemdata type='1'>
++f8gAAAAAAAPAAQAXwMAAAAAAAAAAAAAAAAAAAAAAADc/3ID+f9gAyBOAAAAAAAAAABFeHQub25S
+ZWFkeShmdW5jdGlvbigpIHsNCQkNCXZhciB2aWV3cG9ydCA9IG5ldyBFeHQuVmlld3BvcnQoew0J
+CWxheW91dDogJ2JvcmRlcicsDQkJaXRlbXM6IFt7DQkJCXJlZ2lvbiA6ICd3ZXN0JywNCQkJaWQg
+OiAnd2VzdC1wYW5lbCcsDQkJCXRpdGxlIDogJ1dlc3QnLA0JCQlzcGxpdCA6IHRydWUsDQkJCXdp
+ZHRoIDogMjAwLA0JCQltaW5TaXplIDogMTc1LA0JCQltYXhTaXplIDogNDAwLA0JCQljb2xsYXBz
+aWJsZSA6IHRydWUsDQkJCXh0eXBlIDogJ3huZC11aW91dGxpbmUnLA0JCQl0YXJnZXQgOiAnY2Vu
+dGVyLXBhbmVsJywNCQkJdGFyZ2V0RGVmYXVsdHMgOiB7Y2xvc2FibGUgOiB0cnVlfSwNCQkJb3V0
+bGluZU5hbWUgOiAnbWFpbk9MJw0JCX0sew0JCQlyZWdpb24gOiAnY2VudGVyJywNCQkJbGF5b3V0
+IDogJ2FjY29yZGlvbicsDQkJCWlkIDogJ2NlbnRlci1wYW5lbCcsDQkJCWRlZmF1bHRzIDogew0J
+CQkJc3RyaXBlUm93cyA6IHRydWUsDQkJCQlmcmFtZSA6IHRydWUNCQkJfSwNCQkJaXRlbXMgOiBb
+ew0JCQkJeHR5cGUgOiAneG5kLXVpdmlldycsDQkJCQlpZCA6ICd2aWV3JywNCQkJCXZpZXdOYW1l
+IDogJ2YxJywNCQkJCXN0cmlwZVJvd3MgOiB0cnVlLA0JCQkJdGl0bGUgOiAnQSBWaWV3JywNCQkJ
+CWZyYW1lIDogdHJ1ZSwNCQkJCXRhcmdldCA6ICdjZW50ZXItcGFuZWwnDQkJCX0sIHsNCQkJCXh0
+eXBlIDogJ3huZC11aXZpZXcnLA0JCQkJaWQgOiAndmlldzInLA0JCQkJdmlld05hbWUgOiAnc2Mx
+JywNCQkJCXN0cmlwZVJvd3MgOiB0cnVlLA0JCQkJdGl0bGUgOiAnQSBWaWV3JywNCQkJCWZyYW1l
+IDogdHJ1ZSwNCQkJCXRhcmdldCA6ICdjZW50ZXItcGFuZWwnDQkJCX1dDQkJfV0NCX0pOw0JDX0p
+AABf/xAAAgAPAAcAAAAAAAAA
+</rawitemdata></item>
+<item name='$TITLE'><text>main4.html</text></item>
+<item name='$Comment' sign='true'><text>Complex Layout Example</text></item>
+<item name='$Info' sign='true'>
+<rawitemdata type='1'>
+hhgBAIAAAAAAgAAAAQABAP///wAQAAAA
+</rawitemdata></item>
+<item name='$WindowTitle' sign='true'><formula>"Complex Layout"</formula></item>
+<item name='$HTMLHeadTag' sign='true'><formula>thisWebDbName := @WebDbName;
+extUrl := @GetProfileField("Extnd.Profile";"extUrl");
+extndUrl := @GetProfileField("Extnd.Profile";"extndUrl");
+debug := @If(@UrlQueryString("debug") = "true"; "-debug"; "");
+
+
+"&lt;!-- Ext JS library --&gt;" + @NewLine +
+"&lt;script type='text/javascript' src='" + extUrl + "ext-all" + debug + ".js'&gt;&lt;/script&gt;" + @NewLine +
+
+"&lt;!-- Extnd JS library --&gt;" + @NewLine +
+"&lt;script type='text/javascript' src='" + extndUrl + "extnd-all" + debug + ".js'&gt;&lt;/script&gt;" + @NewLine +
+"&lt;script type='text/javascript' src='" + extndUrl + "Session.js?OpenAgent&amp;db=" + thisWebDbName + "'&gt;&lt;/script&gt;" + @NewLine +
+
+"&lt;link rel='stylesheet' type='text/css' href='" + extUrl + "resources/css/ext-all.css' /&gt;" + @NewLine +
+"&lt;link rel='stylesheet' type='text/css' href='" + extndUrl + "resources/css/domino.css' /&gt;" + @NewLine +
+
+"&lt;style type='text/css'&gt;
+html, body {
+        font:normal 12px verdana;
+        margin:0;
+        padding:0;
+        border:0 none;
+        overflow:hidden;
+        height:100%;
+    }
+	p {
+	    margin:5px;
+	}
+&lt;/style&gt;"</formula></item>
+<item name='$Flags'><text>C34WQ</text></item>
+<item name='$DesignerVersion' sign='true'><text>7</text></item>
+<item name='$$ScriptName' summary='false' sign='true'><text>main4.html</text></item>
+<item name='$Body' sign='true'>
+<rawitemdata type='1'>
+gQKC/1oAAQAAAAAAAAAAAKAFAACgBQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAABAAAAAJSHAAAAAAAAAAAAAAAAAQAAAAQAAACDBAEAhf8IAAEAAAqBAoL/WgACAAAA
+AAAAAAAAoAUAAKAFCADQAqAFcAhACxAO4BCwE4AWAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA
+AAAAlISgBQoAoAUKAAAAZAABAAAABAAAAIMEAgDM/wgAAAAAAIX/CAABAAAKzf8IAAAAAAA=
+</rawitemdata></item></note>
+
