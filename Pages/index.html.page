@@ -2,11 +2,11 @@
 <!DOCTYPE note SYSTEM 'xmlschemas/domino_8_5_3.dtd'>
 <note class='form' xmlns='http://www.lotus.com/dxl' version='8.5' maintenanceversion='3.0'
  replicaid='86257B2E00116506'>
-<noteinfo noteid='392' unid='1603D25F6447F66086257B3400607C1E' sequence='42'>
+<noteinfo noteid='392' unid='1603D25F6447F66086257B3400607C1E' sequence='44'>
 <created><datetime dst='true'>20130320T123352,30-05</datetime></created>
-<modified><datetime dst='true'>20131021T110445,73-05</datetime></modified>
-<revised><datetime dst='true'>20131020T233456,41-05</datetime></revised>
-<lastaccessed><datetime dst='true'>20131021T110445,73-05</datetime></lastaccessed>
+<modified><datetime dst='true'>20131021T114355,71-05</datetime></modified>
+<revised><datetime dst='true'>20131021T114355,70-05</datetime></revised>
+<lastaccessed><datetime dst='true'>20131021T114355,71-05</datetime></lastaccessed>
 <addedtofile><datetime dst='true'>20131021T110445,73-05</datetime></addedtofile></noteinfo>
 <updatedby><name>CN=Jack Ratcliff/OU=A55DE6/O=Prominic</name></updatedby>
 <revisions><datetime dst='true'>20130325T235132,41-05</datetime><datetime
@@ -14,7 +14,8 @@
  dst='true'>20130407T221658,40-05</datetime><datetime dst='true'>20130407T222632,95-05</datetime><datetime
  dst='true'>20130407T222841,75-05</datetime><datetime dst='true'>20130407T223025,33-05</datetime><datetime
  dst='true'>20130407T223546,23-05</datetime><datetime dst='true'>20130407T223553,68-05</datetime><datetime
- dst='true'>20131020T233416,14-05</datetime></revisions>
+ dst='true'>20131020T233416,14-05</datetime><datetime dst='true'>20131020T233456,41-05</datetime><datetime
+ dst='true'>20131021T114334,94-05</datetime></revisions>
 <wassignedby><name>CN=Jack Ratcliff/OU=A55DE6/O=Prominic</name></wassignedby>
 <item name='$HTMLCode' sign='true'>
 <rawitemdata type='1'>
@@ -51,7 +52,7 @@ dev := @If(@UrlQueryString("dev") = "true"; @True; @False);
 
 "&lt;!-- always load the Session.js and any app specific files --&gt;" + @NewLine +
 "&lt;script type='text/javascript' src='" + extndUrl + "Session.js?OpenAgent&amp;db=" + thisWebDbName + "'&gt;&lt;/script&gt;" + @NewLine +
-"&lt;script type='text/javascript' src='" + thisWebDbName + "/index.js'&gt;&lt;/script&gt;" + @NewLine</formula></item>
+"&lt;script type='text/javascript' src='/" + thisWebDbName + "/index.js'&gt;&lt;/script&gt;" + @NewLine</formula></item>
 <item name='$Flags'><text>C34WQ</text></item>
 <item name='$DesignerVersion'><text>8.5.3</text></item>
 <item name='$$ScriptName' summary='false' sign='true'><text>main.html</text></item>
