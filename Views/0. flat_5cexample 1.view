@@ -2,19 +2,13 @@
 <!DOCTYPE note SYSTEM 'xmlschemas/domino_8_5_3.dtd'>
 <note default='true' class='view' xmlns='http://www.lotus.com/dxl' version='8.5'
  maintenanceversion='3.0' replicaid='86257B2E00116506'>
-<noteinfo noteid='1d2' unid='970F2933FDFF873685256C3900751ADF' sequence='106'>
+<noteinfo noteid='1d2' unid='970F2933FDFF873685256C3900751ADF' sequence='110'>
 <created><datetime dst='true'>20020919T171905,91-04</datetime></created>
-<modified><datetime dst='true'>20131021T110406,22-05</datetime></modified>
-<revised><datetime dst='true'>20130404T095705,02-05</datetime></revised>
-<lastaccessed><datetime dst='true'>20131021T110406,22-05</datetime></lastaccessed>
+<modified><datetime dst='true'>20131021T214410,74-05</datetime></modified>
+<revised><datetime dst='true'>20131021T214410,73-05</datetime></revised>
+<lastaccessed><datetime dst='true'>20131021T214410,74-05</datetime></lastaccessed>
 <addedtofile><datetime dst='true'>20131021T110406,22-05</datetime></addedtofile></noteinfo>
 <updatedby><name>CN=Jack Ratcliff/OU=A55DE6/O=Prominic</name></updatedby>
-<revisions><datetime dst='true'>20130324T180655,56-05</datetime><datetime
- dst='true'>20130402T083640,89-05</datetime><datetime dst='true'>20130403T104620,93-05</datetime><datetime
- dst='true'>20130403T140454,75-05</datetime><datetime dst='true'>20130403T140807,33-05</datetime><datetime
- dst='true'>20130403T140929,20-05</datetime><datetime dst='true'>20130403T141149,06-05</datetime><datetime
- dst='true'>20130404T085254,73-05</datetime><datetime dst='true'>20130404T085550,04-05</datetime><datetime
- dst='true'>20130404T085603,05-05</datetime><datetime dst='true'>20130404T093901,52-05</datetime></revisions>
 <wassignedby><name>CN=Jack Ratcliff/OU=A55DE6/O=Prominic</name></wassignedby>
 <item name='$FormulaClass' sign='true'><text>1</text></item>
 <item name='$TITLE' sign='true'><text>0. flat\example 1|f1</text></item>

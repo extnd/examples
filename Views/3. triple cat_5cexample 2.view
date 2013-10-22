@@ -2,13 +2,13 @@
 <!DOCTYPE note SYSTEM 'xmlschemas/domino_8_5_3.dtd'>
 <note class='view' xmlns='http://www.lotus.com/dxl' version='8.5' maintenanceversion='3.0'
  replicaid='86257B2E00116506'>
-<noteinfo noteid='1e6' unid='D44917ED015A028285256C3900751AEB' sequence='7'>
+<noteinfo noteid='1e6' unid='D44917ED015A028285256C3900751AEB' sequence='11'>
 <created><datetime dst='true'>20020919T171906,03-04</datetime></created>
-<modified><datetime dst='true'>20131021T110406,32-05</datetime></modified>
-<revised><datetime dst='true'>20130322T153113,89-05</datetime></revised>
-<lastaccessed><datetime dst='true'>20131021T110406,32-05</datetime></lastaccessed>
+<modified><datetime dst='true'>20131021T214409,96-05</datetime></modified>
+<revised><datetime dst='true'>20131021T214409,95-05</datetime></revised>
+<lastaccessed><datetime dst='true'>20131021T214409,96-05</datetime></lastaccessed>
 <addedtofile><datetime dst='true'>20131021T110406,32-05</datetime></addedtofile></noteinfo>
-<updatedby><name>CN=Jack Ratcliff/O=BlueCuda</name><name>CN=Jack Ratcliff/OU=A55DE6/O=Prominic</name></updatedby>
+<updatedby><name>CN=Jack Ratcliff/OU=A55DE6/O=Prominic</name></updatedby>
 <wassignedby><name>CN=Jack Ratcliff/OU=A55DE6/O=Prominic</name></wassignedby>
 <item name='$FormulaClass' sign='true'><text>1</text></item>
 <item name='$TITLE' sign='true'><text>3. triple cat\example 2|tc2</text></item>

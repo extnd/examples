@@ -2,15 +2,13 @@
 <!DOCTYPE note SYSTEM 'xmlschemas/domino_8_5_3.dtd'>
 <note class='filter' xmlns='http://www.lotus.com/dxl' version='8.5' maintenanceversion='3.0'
  replicaid='86257B2E00116506'>
-<noteinfo noteid='18a' unid='6031CA6903A7B101862574820000028C' sequence='2'>
+<noteinfo noteid='18a' unid='6031CA6903A7B101862574820000028C' sequence='6'>
 <created><datetime dst='true'>20080709T190006,52-05</datetime></created>
-<modified><datetime dst='true'>20131021T110405,64-05</datetime></modified>
-<revised><datetime dst='true'>20130322T153114,43-05</datetime></revised>
-<lastaccessed><datetime dst='true'>20131021T110405,64-05</datetime></lastaccessed>
+<modified><datetime dst='true'>20131021T214415,62-05</datetime></modified>
+<revised><datetime dst='true'>20131021T214415,61-05</datetime></revised>
+<lastaccessed><datetime dst='true'>20131021T214415,62-05</datetime></lastaccessed>
 <addedtofile><datetime dst='true'>20131021T110405,64-05</datetime></addedtofile></noteinfo>
-<updatedby><name>CN=jratcliff/O=DDN</name><name>CN=Jack Ratcliff/O=BlueCuda</name><name
->CN=Development Team/O=ExtND</name><name>CN=Jack Ratcliff/O=BlueCuda</name><name
->CN=Jack Ratcliff/OU=A55DE6/O=Prominic</name></updatedby>
+<updatedby><name>CN=Jack Ratcliff/OU=A55DE6/O=Prominic</name></updatedby>
 <wassignedby><name>CN=Jack Ratcliff/OU=A55DE6/O=Prominic</name></wassignedby>
 <item name='$POID'><datetime>20041129T132733,22-05</datetime></item>
 <item name='$TITLE' sign='true'><text>ExtND\Sign DB</text></item>
@@ -81,7 +79,7 @@ Gg8AHQIAAAARABQAAAAAAP//AQADAAQAAAAHADwACQAKAAAAAA==
 <item name='$DesignerVersion' sign='true'><text>7</text></item>
 <item name='$AssistRunInfo' summary='true'>
 <rawitemdata type='3'>
-BgAAAgAACACGAQAAAAAAAAUAAAAwAAAAAAAAAAAAAAAAAAAAmAAAAAAAAAAAAAAAAAAAABAAAAAA
+BgAAAgAACACeBAAAAAAAAAUAAAAwAAAAAAAAAAAAAAAAAAAAmAAAAAAAAAAAAAAAAAAAABAAAAAA
 AAAAZ7xwADZ7JYYAAAAA/2gRAC57JYYGZREALnslhgAAAAAAAAAAAAAAAAAAAAAAAAAAU3RhcnRl
 ZCBydW5uaW5nIGFnZW50ICdFeHRORFxTaWduIERCJyBvbiAwMy8yMi8yMDEzIDAzOjMxOjAyIFBN
 DQpSYW4gTG90dXNTY3JpcHQgY29kZQ0KRG9uZSBydW5uaW5nIGFnZW50ICdFeHRORFxTaWduIERC

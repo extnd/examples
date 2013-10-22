@@ -2,14 +2,13 @@
 <!DOCTYPE note SYSTEM 'xmlschemas/domino_8_5_3.dtd'>
 <note class='view' xmlns='http://www.lotus.com/dxl' version='8.5' maintenanceversion='3.0'
  replicaid='86257B2E00116506'>
-<noteinfo noteid='1ae' unid='4F9EE8D893B3380785256C3900751AE0' sequence='16'>
+<noteinfo noteid='1ae' unid='4F9EE8D893B3380785256C3900751AE0' sequence='20'>
 <created><datetime dst='true'>20020919T171905,92-04</datetime></created>
-<modified><datetime dst='true'>20131021T110405,83-05</datetime></modified>
-<revised><datetime dst='true'>20130405T094018,00-05</datetime></revised>
-<lastaccessed><datetime dst='true'>20131021T110405,83-05</datetime></lastaccessed>
+<modified><datetime dst='true'>20131021T214410,66-05</datetime></modified>
+<revised><datetime dst='true'>20131021T214410,65-05</datetime></revised>
+<lastaccessed><datetime dst='true'>20131021T214410,66-05</datetime></lastaccessed>
 <addedtofile><datetime dst='true'>20131021T110405,83-05</datetime></addedtofile></noteinfo>
-<updatedby><name>CN=Jack Ratcliff/O=BlueCuda</name><name>CN=Jack Ratcliff/OU=A55DE6/O=Prominic</name></updatedby>
-<revisions><datetime dst='true'>20130322T153113,66-05</datetime></revisions>
+<updatedby><name>CN=Jack Ratcliff/OU=A55DE6/O=Prominic</name></updatedby>
 <wassignedby><name>CN=Jack Ratcliff/OU=A55DE6/O=Prominic</name></wassignedby>
 <item name='$FormulaClass' sign='true'><text>1</text></item>
 <item name='$TITLE' sign='true'><text>0. flat\example 2 (with responses)|f2</text></item>

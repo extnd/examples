@@ -2,14 +2,13 @@
 <!DOCTYPE note SYSTEM 'xmlschemas/domino_8_5_3.dtd'>
 <note class='view' xmlns='http://www.lotus.com/dxl' version='8.5' maintenanceversion='3.0'
  replicaid='86257B2E00116506'>
-<noteinfo noteid='19a' unid='191BEF83B6F2437D85256C3900751AEE' sequence='5'>
+<noteinfo noteid='19a' unid='191BEF83B6F2437D85256C3900751AEE' sequence='9'>
 <created><datetime dst='true'>20020919T171906,06-04</datetime></created>
-<modified><datetime dst='true'>20131021T110405,73-05</datetime></modified>
-<revised><datetime dst='true'>20130322T153112,77-05</datetime></revised>
-<lastaccessed><datetime dst='true'>20131021T110405,73-05</datetime></lastaccessed>
+<modified><datetime dst='true'>20131021T214410,80-05</datetime></modified>
+<revised><datetime dst='true'>20131021T214410,79-05</datetime></revised>
+<lastaccessed><datetime dst='true'>20131021T214410,80-05</datetime></lastaccessed>
 <addedtofile><datetime dst='true'>20131021T110405,73-05</datetime></addedtofile></noteinfo>
-<updatedby><name>CN=JackAdmin Ratcliff/OU=CORP/O=RKTN</name><name>CN=jratcliff/O=DDN</name><name
->CN=Jack Ratcliff/OU=A55DE6/O=Prominic</name></updatedby>
+<updatedby><name>CN=Jack Ratcliff/OU=A55DE6/O=Prominic</name></updatedby>
 <wassignedby><name>CN=Jack Ratcliff/OU=A55DE6/O=Prominic</name></wassignedby>
 <item name='$WebFlags' sign='true'><text/></item>
 <item name='$CIAOOwner' sign='true'><text>CN=Jack Ratcliff/O=RKTNDevIntranet</text></item>

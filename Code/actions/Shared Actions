@@ -2,13 +2,13 @@
 <!DOCTYPE note SYSTEM 'xmlschemas/domino_8_5_3.dtd'>
 <note class='form' xmlns='http://www.lotus.com/dxl' version='8.5' maintenanceversion='3.0'
  replicaid='86257B2E00116506'>
-<noteinfo noteid='296' unid='C9E3D0494E315741852573EC008002DC' sequence='8'>
+<noteinfo noteid='296' unid='C9E3D0494E315741852573EC008002DC' sequence='12'>
 <created><datetime>20080211T181813,40-05</datetime></created>
-<modified><datetime dst='true'>20131021T110407,91-05</datetime></modified>
-<revised><datetime dst='true'>20130322T153112,18-05</datetime></revised>
-<lastaccessed><datetime dst='true'>20131021T110407,91-05</datetime></lastaccessed>
+<modified><datetime dst='true'>20131021T214414,76-05</datetime></modified>
+<revised><datetime dst='true'>20131021T214414,75-05</datetime></revised>
+<lastaccessed><datetime dst='true'>20131021T214414,76-05</datetime></lastaccessed>
 <addedtofile><datetime dst='true'>20131021T110407,91-05</datetime></addedtofile></noteinfo>
-<updatedby><name>CN=Jack Ratcliff/O=BlueCuda</name><name>CN=Jack Ratcliff/OU=A55DE6/O=Prominic</name></updatedby>
+<updatedby><name>CN=Jack Ratcliff/OU=A55DE6/O=Prominic</name></updatedby>
 <wassignedby><name>CN=Jack Ratcliff/OU=A55DE6/O=Prominic</name></wassignedby>
 <item name='$Flags'><text>34yQC</text></item>
 <item name='$TITLE'><text>$ACTIONS</text></item>
