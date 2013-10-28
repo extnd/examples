@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><note class="form" replicaid="86257B2E00116506" version="9.0" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="41e" sequence="22" unid="F171D01968052F8C85257B4D0017D3A6">
+<created><datetime dst="true">20130414T002015,10-04</datetime></created>
+<modified><datetime dst="true">20131021T214411,95-05</datetime></modified>
+<revised><datetime dst="true">20131021T214411,94-05</datetime></revised>
+<lastaccessed><datetime dst="true">20131021T214411,95-05</datetime></lastaccessed>
+<addedtofile><datetime dst="true">20131021T110447,06-05</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Jack Ratcliff/OU=A55DE6/O=Prominic</name></updatedby>
+<wassignedby><name>CN=Jack Ratcliff/OU=A55DE6/O=Prominic</name></wassignedby>
+<item name="$TITLE"><text>examples/calendar/resources/images/default/page-prev.gif</text></item>
+<item name="$Flags"><text>34CiQ</text></item>
+<item name="$ImagesColorize"><number>0</number></item>
+<item name="$ImagesHigh"><number>1</number></item>
+<item name="$ImagesWide"><number>1</number></item>
+<item name="$ImageNames"><text>page-prev.gif</text></item>
+<item name="$FileModDT"><datetime dst="true">20130415T113203,32-04</datetime></item>
+<item name="$DesignerVersion"><text>8.5.3</text></item>
+
+</note>

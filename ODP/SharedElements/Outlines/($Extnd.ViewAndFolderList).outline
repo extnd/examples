@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<note class='filter' xmlns='http://www.lotus.com/dxl' version='9.0' replicaid='86257B2E00116506'>
+<noteinfo noteid='16a' unid='FC5B79AF07DD918A852572C0006A71E2' sequence='12'>
+<created><datetime dst='true'>20070417T152239,70-04</datetime></created>
+<modified><datetime dst='true'>20131021T214411,32-05</datetime></modified>
+<revised><datetime dst='true'>20131021T214411,31-05</datetime></revised>
+<lastaccessed><datetime dst='true'>20131021T214411,32-05</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20131021T110405,49-05</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Jack Ratcliff/OU=A55DE6/O=Prominic</name></updatedby>
+<wassignedby><name>CN=Jack Ratcliff/OU=A55DE6/O=Prominic</name></wassignedby>
+<item name='$SiteMapList' sign='true'>
+<rawitemdata type='1a'>
+AQYBAAEABABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAEAEgAAAAAAAAACgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+/P8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEgAAAAEAAAACwAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAA/P8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEgAAAAAAAAA
+DAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/f8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAEgAAAAEAAAADQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/f8AAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+</rawitemdata></item>
+<item name='$Flags'><text>m</text></item>
+<item name='$POID'><datetime dst='true'>20070411T232705,41-04</datetime></item>
+<item name='$TITLE' sign='true'><text>($Extnd.ViewAndFolderList)</text></item>
+<item name='$DesignerVersion' sign='true'><text>7</text></item></note>
+

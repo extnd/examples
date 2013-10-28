@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<note class='view' xmlns='http://www.lotus.com/dxl' version='9.0' replicaid='86257B2E00116506'>
+<noteinfo noteid='1aa' unid='977A6B4A9A9ABCA885256F3B000885DE' sequence='12'>
+<created><datetime dst='true'>20041027T213305,58-04</datetime></created>
+<modified><datetime dst='true'>20131021T214409,74-05</datetime></modified>
+<revised><datetime dst='true'>20131021T214409,73-05</datetime></revised>
+<lastaccessed><datetime dst='true'>20131021T214409,74-05</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20131021T110405,81-05</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Jack Ratcliff/OU=A55DE6/O=Prominic</name></updatedby>
+<wassignedby><name>CN=Jack Ratcliff/OU=A55DE6/O=Prominic</name></wassignedby>
+<item name='$FormulaClass' sign='true'><text>1</text></item>
+<item name='$TITLE' sign='true'><text>Multi-Text field</text></item>
+<item name='$Index' sign='true'><text/></item>
+<item name='$Formula' summary='true' sign='true'><formula compiled='true'>
+jgACACIAAgAkMgUABwBzdWJqZWN0AAUABQBtdWx0aQAiAgMAAgAcAAcAc3ViamVjdAAFAAcAc3Vi
+amVjdAADAAUAJgAiAAQAAgAHAAkABAAkMnN1YmplY3QkQ29uZmxpY3QkUkVGBAAEAAAAFgAFAAUA
+bXVsdGkAAQAAAAsCAwAHAA4ACAAJTDFTMlMzUw==
+</formula></item>
+<item name='$Collation' summary='true'>
+<rawitemdata type='2'>
+DwABAABEGGYAAAACACQy
+</rawitemdata></item>
+<item name='$ViewFormat' summary='true' sign='true'>
+<rawitemdata type='5'>
+AQACAAMACAgAAFZDAAACAAEAMAAAAIAAAQAACgABAAAAAAAAAAICAABAVkMAAAcAAAAeAAAAUAAB
+AAAKAAAAAAAAAAAAAgIAAAAkMiMwAAIAIgACACQyBQAHAHN1YmplY3QABQAFAG11bHRpACICAwAH
+AAwABQAJMVMyUwBzdWJqZWN0HgACABwABwBzdWJqZWN0AAUABwBzdWJqZWN0AAMAJgABAAAAAQEA
+CQEAAAoBAQ4KAAABAK0rCQABAAEAAAAAAAAAAABXQwEBAAkAAAAAAAAAAAAAAAAAAAAAAQAAAAAA
+AAD//wAAAAAAAAAAAAAAAAAAV0MBAQAJAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAA//8AAAAAAAAA
+AAAAAAAAAEIAAAAAAAEA////AAUA////AAEAAAAAAAAAAAAAAAAAAQD///8AAQD///8AAAABAAAA
+AAABAAAAAAAAAAAAAAAAAAgAAAAAAAEA
+</rawitemdata></item>
+<item name='$Comment' sign='true'><text/></item>
+<item name='$DesignerVersion' sign='true'><text>6.5</text></item>
+<item name='$Flags'><text>Y</text></item></note>
+

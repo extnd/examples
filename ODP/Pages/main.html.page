@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='utf-8'?>
+<note class='form' xmlns='http://www.lotus.com/dxl' version='9.0' replicaid='86257B2E00116506'>
+<noteinfo noteid='3b2' unid='9A4DB50C4E090E3286257B2F00191233' sequence='22'>
+<created><datetime dst='true'>20130314T233350,59-05</datetime></created>
+<modified><datetime dst='true'>20131021T214412,45-05</datetime></modified>
+<revised><datetime dst='true'>20131021T214412,44-05</datetime></revised>
+<lastaccessed><datetime dst='true'>20131021T214412,45-05</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20131021T110445,89-05</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Jack Ratcliff/OU=A55DE6/O=Prominic</name></updatedby>
+<wassignedby><name>CN=Jack Ratcliff/OU=A55DE6/O=Prominic</name></wassignedby>
+<item name='$HTMLCode' sign='true'>
+<rawitemdata type='1'>
++f8gAAAAAAAPAAQAHwEAAAAAAAAAAAAAAAAAAAAAAADc/zIB+f8gASBOAAAAAAAAAABFeHQub25S
+ZWFkeShmdW5jdGlvbiAoKSB7DQkNCUV4dC5jcmVhdGUoJ0V4dG5kLlZpZXdwb3J0Jywgew0JCXVp
+T3V0bGluZSA6IHsNCQkJb3V0bGluZU5hbWU6ICdtYWluT0wnLA0JCQl1c2VBcnJvd3M6IHRydWUs
+DQkJCXNob3dJY29uczogZmFsc2UNCQl9LA0JCXVpVmlldyA6IHsNCQkJdmlld05hbWU6ICdzYzEn
+LCANCQkJdmlld1RpdGxlCTogJ0EgQ2F0ZWdvcml6ZWQgVmlldycsIA0JCQlzaG93U2VhcmNoOiB0
+cnVlLCANCQkJc2hvd0FjdGlvbmJhcjogdHJ1ZQ0JCX0NCX0pOyANDX0pOw0gICAgICANAFNf/xAA
+AgAPAAcAAAAAAAAA
+</rawitemdata></item>
+<item name='$TITLE'><text>main.html</text></item>
+<item name='$Info' sign='true'>
+<rawitemdata type='1'>
+hhgBAIAAAAAAgAAAAQABAP///wAQAAAA
+</rawitemdata></item>
+<item name='$WindowTitle' sign='true'><formula>@DbTitle</formula></item>
+<item name='$HTMLHeadTag' sign='true'><formula>thisWebDbName := @WebDbName;
+extUrl := @GetProfileField("Extnd.Profile";"extUrl");
+extndUrl := @GetProfileField("Extnd.Profile";"extndUrl");
+debug := @If(@UrlQueryString("debug") = "true"; "-debug"; "");
+
+
+"&lt;!-- Ext JS library --&gt;" + @NewLine +
+"&lt;script type='text/javascript' src='" + extUrl + "ext-all" + debug + ".js'&gt;&lt;/script&gt;" + @NewLine +
+
+"&lt;!-- Extnd JS library --&gt;" + @NewLine +
+"&lt;script type='text/javascript' src='" + extndUrl + "extnd-all" + debug + ".js'&gt;&lt;/script&gt;" + @NewLine +
+"&lt;script type='text/javascript' src='" + extndUrl + "Session.js?OpenAgent&amp;db=" + thisWebDbName + "'&gt;&lt;/script&gt;" + @NewLine +
+
+"&lt;link rel='stylesheet' type='text/css' href='" + extUrl + "resources/css/ext-all.css' /&gt;" + @NewLine +
+"&lt;link rel='stylesheet' type='text/css' href='" + extndUrl + "resources/css/domino.css' /&gt;"</formula></item>
+<item name='$Flags'><text>C34WQ</text></item>
+<item name='$DesignerVersion'><text>7</text></item>
+<item name='$$ScriptName' summary='false' sign='true'><text>main.html</text></item>
+<item name='$Body' sign='true'>
+<rawitemdata type='1'>
+gQKC/1oAAQAAAAAAAAAAAKAFAACgBQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAABAAAAAJSHAAAAAAAAAAAAAAAAAQAAAAQAAACDBAEAhf8IAAEAAAqBAoMEAQCF/wgA
+AQAACoECgv9aAAIAAAAAAAAAAACgBQAAoAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAQAAAACVhwAAAAAAAAAAAAAAAAEAAAAEAAAAgwQCAIX/mQABAAAKVGhlIFVJ
+IGZvciB0aGlzIHBhZ2UgaXMgYnVpbHQgd2l0aCBFeHQgSlMgYW5kIEV4dG5kLiAgUGxlYXNlIHJl
+ZmVyIHRvIHRoZSBIVE1MIEhlYWQgQ29udGVudCBhbmQgSlMgSGVhZGVyIHRvIHNlZSBob3cgc2lt
+cGxlIHRoaXMgVUkgd2FzIHRvIGJ1aWxkLgCBAoMEAgCF/wgAAQAACg==
+</rawitemdata></item></note>
+

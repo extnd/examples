@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><note class="filter" replicaid="86257B2E00116506" version="9.0" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="34a" sequence="26" unid="5BAF3C560E3F58EB86257B3C00667159">
+<created><datetime dst="true">20130328T133856,89-05</datetime></created>
+<modified><datetime dst="true">20131021T214415,34-05</datetime></modified>
+<revised><datetime dst="true">20131021T214415,33-05</datetime></revised>
+<lastaccessed><datetime dst="true">20131021T214415,34-05</datetime></lastaccessed>
+<addedtofile><datetime dst="true">20131021T110445,35-05</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Jack Ratcliff/OU=A55DE6/O=Prominic</name></updatedby>
+<wassignedby><name>CN=Jack Ratcliff/OU=A55DE6/O=Prominic</name></wassignedby>
+<item name="$TITLE" sign="true"><text>examples/grid2/buffered-grid.js</text></item>
+<item name="$Flags"><text>h534Q</text></item>
+<item name="$PublicAccess" sign="true"><text>1</text></item>
+<item name="$DesignerVersion"><text>8.5.3</text></item>
+</note>

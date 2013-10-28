@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='utf-8'?>
+<note class='form' xmlns='http://www.lotus.com/dxl' version='9.0' replicaid='86257B2E00116506'>
+<noteinfo noteid='392' unid='1603D25F6447F66086257B3400607C1E' sequence='48'>
+<created><datetime dst='true'>20130320T123352,30-05</datetime></created>
+<modified><datetime dst='true'>20131021T214412,70-05</datetime></modified>
+<revised><datetime dst='true'>20131021T214412,69-05</datetime></revised>
+<lastaccessed><datetime dst='true'>20131021T214412,70-05</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20131021T110445,73-05</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Jack Ratcliff/OU=A55DE6/O=Prominic</name></updatedby>
+<wassignedby><name>CN=Jack Ratcliff/OU=A55DE6/O=Prominic</name></wassignedby>
+<item name='$HTMLCode' sign='true'>
+<rawitemdata type='1'>
+X/8QAAIADwAHAAAAAAAAAA==
+</rawitemdata></item>
+<item name='$TITLE'><text>index.html</text></item>
+<item name='$Info' sign='true'>
+<rawitemdata type='1'>
+hhgBAIAAAAAAgAAAAQABAP///wAQAAAA
+</rawitemdata></item>
+<item name='$WindowTitle' sign='true'><formula>@DbTitle</formula></item>
+<item name='$HTMLHeadTag' sign='true'><formula>thisWebDbName := @WebDbName;
+extUrl := @GetProfileField("Extnd.Profile";"extUrl");
+extndUrl := @GetProfileField("Extnd.Profile";"extndUrl");
+debug := @If(@UrlQueryString("debug") = "true"; "-debug"; "");
+dev := @If(@UrlQueryString("dev") = "true"; @True; @False);
+
+
+@NewLine +	
+@NewLine +
+
+"&lt;link rel='stylesheet' type='text/css' href='" + extUrl + "resources/css/ext-all.css' /&gt;" + @NewLine +
+"&lt;link rel='stylesheet' type='text/css' href='" + extndUrl + "resources/css/domino.css' /&gt;" + @NewLine +
+
+@If(dev;
+	"&lt;!-- load the dev version which allows for the ExtJS Loader to load only the files needed --&gt;" + @NewLine +
+	"&lt;script type='text/javascript' src='" + extUrl + "ext-dev.js'&gt;&lt;/script&gt;" + @NewLine +
+	"&lt;script type='text/javascript' src='" + extndUrl + "src/extnd.js'&gt;&lt;/script&gt;" + @NewLine +
+	"&lt;script type='text/javascript' src='" + extndUrl + "src/bootstrap.js'&gt;&lt;/script&gt;" + @NewLine;
+
+	"&lt;!-- if not in dev mode then load the '-all' versions of the code which is every file concatenated into one file --&gt;" + @NewLine +
+	"&lt;script type='text/javascript' src='" + extUrl + "ext-all" + debug + ".js'&gt;&lt;/script&gt;" + @NewLine +
+	"&lt;script type='text/javascript' src='" + extndUrl + "extnd-all" + debug + ".js'&gt;&lt;/script&gt;" + @NewLine) + @NewLine +
+
+"&lt;!-- always load the Session.js and any app specific files --&gt;" + @NewLine +
+"&lt;script type='text/javascript' src='" + extndUrl + "Session.js?OpenAgent&amp;db=" + thisWebDbName + "'&gt;&lt;/script&gt;" + @NewLine +
+"&lt;script type='text/javascript' src='/" + thisWebDbName + "/index.js'&gt;&lt;/script&gt;" + @NewLine</formula></item>
+<item name='$Flags'><text>C34WQ</text></item>
+<item name='$DesignerVersion'><text>8.5.3</text></item>
+<item name='$$ScriptName' summary='false' sign='true'><text>main.html</text></item>
+<item name='$Body' sign='true'>
+<rawitemdata type='1'>
+gQKC/1oAAQAAAAAAAAAAAKAFAACgBQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAABAAAAAJSHAAAAAAAAAAAAAAAAAQAAAAQAAACDBAEAhf8IAAEAAAqBAoMEAQCF/wgA
+AQAACoECgwQBAMz/CAAAAAAAhf8WAAEAAAo8ZGl2IGlkPSJob21lIoX/CQABAAAKPgCBAoMEAQCF
+/wgAAQAACs3/CAAAAAAAgQKDBAEAhf9DAAEBAAxXZWxjb21lIHRvIHRoZSBuZXcgRXh0bmQgRXhh
+bXBsZXMgRXhwbG9yZXIgYmFzZWQgb24gRXh0SlMgNACBAoMEAQCF/wgAAQEACoECgwQBAIX/PQAB
+AAAKVGhlIFVJIGZvciB0aGlzIHNpdGUgaXMgYWxsIGRvbmUgaW4gSmF2YVNjcmlwdCB1c2luZyAA
+3QYAAK3/fv8MACAACAAAAAAA9v8+AAAAAAABAAAAJAAAAAAAAAAAAAAAAABodHRwOi8vd3d3LnNl
+bmNoYS5jb20vcHJvZHVjdHMvZXh0anOt/zEACwAIEAAAJQBodHRwOi8vd3d3LnNlbmNoYS5jb20v
+cHJvZHVjdHMvZXh0anMAAN0GAACF/4X/DgABAAQKRXh0IEpT0ggJAAAA/wDeBgAAhf+uAt4GAACu
+AIX/DQABAAAKIGFuZCAA3QYAAK3/fv8MACAACAAAAAAA9v8qAAAAAAABAAAAEAAAAAAAAAAAAAAA
+AABodHRwOi8vZXh0bmQuY29trf8dAAsACBAAABEAaHR0cDovL2V4dG5kLmNvbQAA3QYAAIX/hf8N
+AAEABApFeHRuZADSCAkAAAD/AN4GAACF/64C3gYAAK4Ahf8JAAEAAAouAIECgwQBAIX/CAABAAAK
+gQKDBAEAhf8tAAEAAApXZSBoYXZlIGJlZW4gd29ya2luZyBoYXJkIHRvIGNvbnZlcnQgAN0GAACt
+/37/DAAgAAgAAAAAAPb/KgAAAAAAAQAAABAAAAAAAAAAAAAAAAAAaHR0cDovL2V4dG5kLmNvba3/
+HQALAAgQAAARAGh0dHA6Ly9leHRuZC5jb20AAN0GAACF/4X/DQABAAQKRXh0bmQA0ggJAAAA/wDe
+BgAAhf+uAt4GAACuAIX/FgABAAAKIHRvIHdvcmsgd2l0aCDdBgAArf9+/wwAIAAIAAAAAAD2/y4A
+AAAAAAEAAAAUAAAAAAAAAAAAAAAAAGh0dHA6Ly93d3cuc2VuY2hhLmNvrf8hAAsACBAAABUAaHR0
+cDovL3d3dy5zZW5jaGEuY28AAN0GAACF/4X/EAABAAQKU2VuY2hhJ3PSCAkAAAD/AN4GAACF/64C
+3gYAAK4Ahf8JAAEAAAogAN0GAACt/37/DAAgAAgAAAAAAPb/PgAAAAAAAQAAACQAAAAAAAAAAAAA
+AAAAaHR0cDovL3d3dy5zZW5jaGEuY29tL3Byb2R1Y3RzL2V4dGpzrf8xAAsACBAAACUAaHR0cDov
+L3d3dy5zZW5jaGEuY29tL3Byb2R1Y3RzL2V4dGpzAADdBgAAhf+F/xgAAQAECkV4dCBKUyA0IHBy
+b2R1Y3TSCAkAAAD/AN4GAACF/64C3gYAAK4Ahf8vAAEAAAogYW5kIHdlJ3JlIGFsbW9zdCB0aGVy
+ZS4gIFNvIHdhdGNoIG91ciAA3QYAAK3/fv8MACAACAAAAAAA9v8wAAAAAAABAAAAFgAAAAAAAAAA
+AAAAAABodHRwOi8vZXh0bmQuY29tL2Jsb2cvrf8jAAsACBAAABcAaHR0cDovL2V4dG5kLmNvbS9i
+bG9nLwAA3QYAAIX/hf8MAAEABApibG9n0ggJAAAA/wDeBgAAhf+uAt4GAACuAIX/HQABAAAKIG9y
+IHN1YnNjcmliZSB0byBvdXIgAN0GAACt/37/DAAgAAgAAAAAAPb/NwAAAAAAAQAAAB0AAAAAAAAA
+AAAAAAAAaHR0cDovL2dpdGh1Yi5jb20vZXh0bmQvRXh0bmQArf8qAAsACBAAAB4AaHR0cDovL2dp
+dGh1Yi5jb20vZXh0bmQvRXh0bmQA3QYAAIX/hf8TAAEABApHaXRIdWIgUmVwbwDSCAkAAAD/AN4G
+AACF/64C3gYAAK4Ahf8uAAEAAAogdG8ga2VlcCB1cC10by1kYXRlIHdpdGggb3VyIHByb2dyZXNz
+LoECgwQBAMz/CAAAAAAAhf8IAAEAAArN/wgAAAAAAIECgv9aAAIAAAAAAAAAAACgBQAAoAUIANAC
+oAVwCEALEA7gELATgBYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAACUhKAFCgCgBQoAAABk
+AAEAAAAEAAAAgwQCAIX/QQABAAAKTm90ZSB0aGF0IHRoZSBqcyBpcyBub3QgbWluaWZpZWQgc28g
+aXQgaXMgcmVhZGFibGUuICBTZWUgAN0GAACt/37/DAAgAAgAAAAAAPb/IgAAAAAAAQAAAAgAAAAA
+AAAAAAAAAAAAaW5kZXguanOt/xUACwAIEAAACQBpbmRleC5qcwAA3QYAAIX/hf8QAAEABAppbmRl
+eC5qc9IICQAAAP8A3gYAAIX/rgLeBgAArgDM/wgAAAAAAIX/CAABAAAKgQKDBAIAhf8IAAEAAAqB
+AoMEAQCF/w4AAQAACjwvZGl2Ps3/CAAAAAAAgQKC/1oAAwAAAAAAAAAAAKAFAACgBQAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAJWHAAAAAAAAAAAAAAAAAQAA
+AAQAAACDBAMAhf8IAAEAAAo=
+</rawitemdata></item></note>
+

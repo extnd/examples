@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='utf-8'?>
+<note class='form' xmlns='http://www.lotus.com/dxl' version='9.0' replicaid='86257B2E00116506'>
+<noteinfo noteid='366' unid='7EFF86BC55115DD786257B3A0080277F' sequence='39'>
+<created><datetime dst='true'>20130326T181947,19-05</datetime></created>
+<modified><datetime dst='true'>20131021T214413,50-05</datetime></modified>
+<revised><datetime dst='true'>20131021T214413,49-05</datetime></revised>
+<lastaccessed><datetime dst='true'>20131021T214413,50-05</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20131021T110445,49-05</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Jack Ratcliff/OU=A55DE6/O=Prominic</name></updatedby>
+<wassignedby><name>CN=Jack Ratcliff/OU=A55DE6/O=Prominic</name></wassignedby>
+<item name='$HTMLCode' sign='true'>
+<rawitemdata type='1'>
+X/8QAAIADwAHAAAAAAAAAA==
+</rawitemdata></item>
+<item name='$TITLE'><text>examples/grid/infinite-grid.html</text></item>
+<item name='$Info' sign='true'>
+<rawitemdata type='1'>
+hhgBAIAAAAAAgAAAAQABAP///wAQAAAA
+</rawitemdata></item>
+<item name='$WindowTitle' sign='true'><formula>"Infinite Grid"</formula></item>
+<item name='$HTMLHeadTag' sign='true'><formula>thisWebDbName := @WebDbName;
+extUrl := @GetProfileField("Extnd.Profile";"extUrl");
+extndUrl := @GetProfileField("Extnd.Profile";"extndUrl");
+debug := @If(@UrlQueryString("debug") = "true"; "-debug"; "");
+
+@NewLine + "&lt;!-- CSS --&gt;" + @NewLine +
+"&lt;link rel='stylesheet' type='text/css' href='" + extUrl + "resources/css/ext-all.css' /&gt;" + @NewLine +
+"&lt;link rel='stylesheet' type='text/css' href='" + extndUrl + "resources/css/domino.css' /&gt;" + @NewLine +
+
+@NewLine + "&lt;!-- Ext JS library --&gt;" + @NewLine +
+"&lt;script type='text/javascript' src='" + extUrl + "ext-all" + debug + ".js'&gt;&lt;/script&gt;" + @NewLine +
+
+@NewLine + "&lt;!-- Extnd JS library --&gt;" + @NewLine +
+"&lt;script type='text/javascript' src='" + extndUrl + "extnd-all" + debug + ".js'&gt;&lt;/script&gt;" + @NewLine +
+"&lt;script type='text/javascript' src='" + extndUrl + "Session.js?OpenAgent&amp;db=" + thisWebDbName + "'&gt;&lt;/script&gt;" + @NewLine +
+
+@NewLine + "&lt;!-- demo code --&gt;" + @NewLine +
+"&lt;script type='text/javascript' src='/" + thisWebDbName + "/examples/ViewSourceButton.js'&gt;&lt;/script&gt;" + @NewLine +
+"&lt;script type='text/javascript' src='infinite-grid.js'&gt;&lt;/script&gt;"</formula></item>
+<item name='$Flags'><text>C34WQ</text></item>
+<item name='$DesignerVersion'><text>7</text></item>
+<item name='$$ScriptName' summary='false' sign='true'><text>demos/infinite-grid.html</text></item>
+<item name='$Body' sign='true'>
+<rawitemdata type='1'>
+gQKC/1oAAQAAAAAAAAAAAKAFAACgBQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAABAAAAAJSHAAAAAAAAAAAAAAAAAQAAAAQAAACDBAEAhf8IAAEAAAqBAoMEAQCF/wgA
+AQAACoECgwQBAIX/CAABAAAKgQKDBAEAzP8IAAAAAACF/x4AAQAACjxkaXYgaWQ9ImRlc2NyaXB0
+aW9uIj6BAoL/WgACAAAAAAAAAAAAoAUAAKAFCADQAqAFcAhACxAO4BCwE4AWAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAEAAAAAlISgBQoAoAUKAAAAZAABAAAABAAAAIMEAgCF/wgAAQAACs3/CAAA
+AAAAgQKDBAIAhf+MAAEAAApJZiBhIERvbWlubyB2aWV3IGlzIGV4dHJlbWVseSBsYXJnZSBvciBp
+ZiB5b3Ugc2ltcGx5IGRvIG5vdCB3YW50IHRvIHVzZSBhIHBhZ2luZyB0b29sYmFyLCB0aGVuIHlv
+dSBtYXkgd2FudCB0byB1c2UgYSBidWZmZXJlZCBTdG9yZS6BAoMEAgCF/wgAAQAACoECgwQCAIX/
+ngABAAAKVG8gY29uZmlndXJlIGFuIEV4dG5kLlVJVmlldyB0byB1c2UgYSBidWZmZXJlZCBzdG9y
+ZSBhbGwgeW91IG5lZWQgdG8gZG8gaXMgcGFzcyAnYnVmZmVyZWQ6IHRydWUnIHRvIHRoZSBzdG9y
+ZSB5b3UgY3JlYXRlIG9yIGluIHRoZSBzdG9yZUNvbmZpZyBvYmplY3QugQKDBAIAhf8IAAEAAAqB
+AoMEAgCF/0EAAQAACk5vdGUgdGhhdCB0aGUganMgaXMgbm90IG1pbmlmaWVkIHNvIGl0IGlzIHJl
+YWRhYmxlLiAgU2VlIADdBgAArf9+/wwAIAAIAAAAAAD2/yoAAAAAAAEAAAAQAAAAAAAAAAAAAAAA
+AGluZmluaXRlLWdyaWQuanOt/x0ACwAIEAAAEQBpbmZpbml0ZS1ncmlkLmpzAADdBgAAhf+F/xgA
+AQAECmluZmluaXRlLWdyaWQuanPSCAkAAAD/AN4GAACF/64C3gYAAK4Ahf8IAAEAAAqBAoMEAgCF
+/wgAAQAACoECgwQCAMz/CAAAAAAAhf8OAAEAAAo8L2Rpdj7N/wgAAAAAAA==
+</rawitemdata></item>
+<item name='$V5ACTIONS' sign='true'>
+<rawitemdata type='1'>
+vRwjAAAAAQABAAAAAQAAAAAAAAAAAAAACAACAHn/bAABANTQyAABAAAAAAAJAAAAAAABANTQyAAA
+AB8AAAAAAAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAPz/OgAAAAAAAQAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAEAAAAAAAAAAAAAAAAAAAA=
+</rawitemdata></item></note>
+

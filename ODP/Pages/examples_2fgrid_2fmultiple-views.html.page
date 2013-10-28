@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='utf-8'?>
+<note class='form' xmlns='http://www.lotus.com/dxl' version='9.0' replicaid='86257B2E00116506'>
+<noteinfo noteid='3be' unid='3F56D01CABA4878586257B2F00191222' sequence='34'>
+<created><datetime dst='true'>20130314T233350,42-05</datetime></created>
+<modified><datetime dst='true'>20131021T214413,44-05</datetime></modified>
+<revised><datetime dst='true'>20131021T214413,43-05</datetime></revised>
+<lastaccessed><datetime dst='true'>20131021T214413,44-05</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20131021T110445,95-05</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Jack Ratcliff/OU=A55DE6/O=Prominic</name></updatedby>
+<wassignedby><name>CN=Jack Ratcliff/OU=A55DE6/O=Prominic</name></wassignedby>
+<item name='$HTMLCode' sign='true'>
+<rawitemdata type='1'>
+X/8QAAIADwAHAAAAAAAAAA==
+</rawitemdata></item>
+<item name='$TITLE'><text>examples/grid/multiple-views.html</text></item>
+<item name='$Info' sign='true'>
+<rawitemdata type='1'>
+hhgBAIAAAAAAgAAAAQABAP///wAQAAAA
+</rawitemdata></item>
+<item name='$WindowTitle' sign='true'><formula>"Multiple Views Demo"</formula></item>
+<item name='$HTMLHeadTag' sign='true'><formula>thisWebDbName := @WebDbName;
+extUrl := @GetProfileField("Extnd.Profile";"extUrl");
+extndUrl := @GetProfileField("Extnd.Profile";"extndUrl");
+debug := @If(@UrlQueryString("debug") = "true"; "-debug"; "");
+
+
+@NewLine + "&lt;!-- CSS --&gt;" + @NewLine +
+"&lt;link rel='stylesheet' type='text/css' href='" + extUrl + "resources/css/ext-all.css' /&gt;" + @NewLine +
+"&lt;link rel='stylesheet' type='text/css' href='" + extndUrl + "resources/css/domino.css' /&gt;" + @NewLine +
+
+@NewLine + "&lt;!-- Ext JS library --&gt;" + @NewLine +
+"&lt;script type='text/javascript' src='" + extUrl + "ext-all" + debug + ".js'&gt;&lt;/script&gt;" + @NewLine +
+
+@NewLine + "&lt;!-- Extnd JS library --&gt;" + @NewLine +
+"&lt;script type='text/javascript' src='" + extndUrl + "extnd-all" + debug + ".js'&gt;&lt;/script&gt;" + @NewLine +
+"&lt;script type='text/javascript' src='" + extndUrl + "Session.js?OpenAgent&amp;db=" + thisWebDbName + "'&gt;&lt;/script&gt;" + @NewLine +
+
+@NewLine + "&lt;!-- demo code --&gt;" + @NewLine +
+"&lt;script type='text/javascript' src='/" + thisWebDbName + "/examples/ViewSourceButton.js'&gt;&lt;/script&gt;" + @NewLine +
+"&lt;script type='text/javascript' src='multiple-views.js'&gt;&lt;/script&gt;"</formula></item>
+<item name='$Flags'><text>C34WQ</text></item>
+<item name='$DesignerVersion'><text>7</text></item>
+<item name='$$ScriptName' summary='false' sign='true'><text>demos/multiple-views.html</text></item>
+<item name='$Body' sign='true'>
+<rawitemdata type='1'>
+gQKC/1oAAQAAAAAAAAAAAKAFAACgBQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAABAAAAAJSHAAAAAAAAAAAAAAAAAQAAAAQAAACDBAEAhf8IAAEAAAqBAoMEAQDM/wgA
+AAAAAIX/HgABAAAKPGRpdiBpZD0iZGVzY3JpcHRpb24iPoECgwQBAIX/CAABAAAKgQKDBAEAhf+F
+AAEAAAo8cD5FeHRuZCBzdXBwb3J0cyBoYXZpbmcgYXMgbWFueSB2aWV3cyBhcyB5b3Ugd2FudCBv
+biBhIHBhZ2UuICBJbiB0aGlzIGV4YW1wbGUgd2UgaGF2ZSBhIGZsYXQgdmlldyBhbmQgYSBjYXRl
+Z29yaXplZCB2aWV3PC9wPgCBAoMEAQCF/wgAAQAACoECgv9aAAIAAAAAAAAAAACgBQAAoAUIANAC
+oAVwCEALEA7gELATgBYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAACUhKAFCgCgBQoAAABk
+AAEAAAAEAAAAgwQCAIX/egABAAAKPHA+Tm90ZSB0aGF0IHRoZSBqcyBpcyBub3QgbWluaWZpZWQg
+c28gaXQgaXMgcmVhZGFibGUuICBTZWUgPGEgaHJlZj0ibXVsdGlwbGUtdmlld3MuanMiPm11bHRp
+cGxlLXZpZXdzLmpzPC9hPi48L3A+gQKDBAIAhf8IAAEAAAqBAoMEAgCF/w4AAQAACjwvZGl2PoEC
+gwQCAIX/CAABAAAKzf8IAAAAAAA=
+</rawitemdata></item>
+<item name='$V5ACTIONS' sign='true'>
+<rawitemdata type='1'>
+vRwjAAAAAQABAAAAAQAAAAAAAAAAAAAACAACAHn/bAABANTQyAABAAAAAAAJAAAAAAABANTQyAAA
+AB8AAAAAAAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAPz/OgAAAAAAAQAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAEAAAAAAAAAAAAAAAAAAAA=
+</rawitemdata></item></note>
+

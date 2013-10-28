@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='utf-8'?>
+<note class='form' xmlns='http://www.lotus.com/dxl' version='9.0' replicaid='86257B2E00116506'>
+<noteinfo noteid='3c2' unid='E1320EEAC097FBED86257B2F00178F35' sequence='9'>
+<created><datetime dst='true'>20130314T231719,89-05</datetime></created>
+<modified><datetime dst='true'>20131026T234117,16-05</datetime></modified>
+<revised><datetime dst='true'>20131026T234117,15-05</datetime></revised>
+<lastaccessed><datetime dst='true'>20131026T234117,16-05</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20131021T110446,31-05</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Jack Ratcliff/OU=A55DE6/O=Prominic</name></updatedby>
+<wassignedby><name>CN=Jack Ratcliff/OU=A55DE6/O=Prominic</name></wassignedby>
+<item name='$HTMLCode' sign='true'>
+<rawitemdata type='1'>
+X/8QAAIADwAHAAAAAAAAAA==
+</rawitemdata></item>
+<item name='$TITLE'><text>Extnd.Profile</text></item>
+<item name='$Info' sign='true'>
+<rawitemdata type='1'>
+hhgBAIAAAAAAgAAAAQABAP///wAQAAAA
+</rawitemdata></item>
+<item name='$WindowTitle' sign='true'><formula>"Extnd Profile Document"</formula></item>
+<item name='$WEBQuerySave' sign='true'><formula>REM {trim, convert backslashes to forward slashes, and convert spaces to + character};
+tmpUrlPath := @ReplaceSubstring(@Trim(ExtndDb);"\\":" ";"/":"+");
+
+REM {make sure the first and last character is a forward slash};
+tmpUrlPath2 := @If(@Right(tmpUrlPath;1) = "/"; tmpUrlPath; tmpUrlPath + "/");
+tmpUrlPath3 := @If(@Left(tmpUrlPath2;1) = "/"; tmpUrlPath2;"/" + tmpUrlPath2);
+
+REM {make sure the db path does not have any begining or ending slashes};
+tmpDbPath := @If(@Right(tmpUrlPath;1) = "/"; @LeftBack(ExtndDb;1);ExtndDb);
+tmpDbPath2 := @If(@Left(tmpDbPath;1) = "/"; @RightBack(tmpDbPath;1);tmpDbPath);
+
+@SetProfileField("Extnd.Profile"; "ExtndDb"; tmpDbPath2);
+@SetProfileField("Extnd.Profile"; "extUrl"; tmpUrlPath3 + "ext/");
+@SetProfileField("Extnd.Profile"; "extndUrl"; tmpUrlPath3 + "extnd/")</formula></item>
+<item name='$Flags'><text>CD</text></item>
+<item name='$DesignerVersion'><text>8.5.3</text></item>
+<item name='$ConflictAction'><text>1</text></item>
+<item name='$$ScriptName' summary='false' sign='true'><text>Ext.nd.Profile</text></item>
+<item name='ExtNDDb' placeholder='true'>
+<rawitemdata type='0'>
+</rawitemdata></item>
+<item name='$$Return' placeholder='true'>
+<rawitemdata type='0'>
+</rawitemdata></item>
+<item name='$Fields'><textlist><text>$$Return</text><text>ExtndDb</text></textlist></item>
+<item name='$Body' sign='true'>
+<rawitemdata type='1'>
+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
+</rawitemdata></item></note>
+

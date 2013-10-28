@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='utf-8'?>
+<note class='view' xmlns='http://www.lotus.com/dxl' version='9.0' replicaid='86257B2E00116506'>
+<noteinfo noteid='19a' unid='191BEF83B6F2437D85256C3900751AEE' sequence='9'>
+<created><datetime dst='true'>20020919T171906,06-04</datetime></created>
+<modified><datetime dst='true'>20131021T214410,80-05</datetime></modified>
+<revised><datetime dst='true'>20131021T214410,79-05</datetime></revised>
+<lastaccessed><datetime dst='true'>20131021T214410,80-05</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20131021T110405,73-05</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Jack Ratcliff/OU=A55DE6/O=Prominic</name></updatedby>
+<wassignedby><name>CN=Jack Ratcliff/OU=A55DE6/O=Prominic</name></wassignedby>
+<item name='$WebFlags' sign='true'><text/></item>
+<item name='$CIAOOwner' sign='true'><text>CN=Jack Ratcliff/O=RKTNDevIntranet</text></item>
+<item name='$CIAOTime' sign='true'><datetime dst='true'>20010724T073633,41-04</datetime></item>
+<item name='$CIAOCheckOutTime' sign='true'><datetime dst='true'>20011102T134626,22-04</datetime></item>
+<item name='$CIAOCheckOutComment' sign='true'><text/></item>
+<item name='$TITLE' sign='true'><text>(Keywords)|keywords</text></item>
+<item name='$Index' sign='true'><text/></item>
+<item name='$Formula' summary='true' sign='true'><formula compiled='true'>
+cgAFADwANwAFAAkACwAIAAkABABLZXl3b3JkSURLZXl3b3JkRGVzY0tleXdvcmRzJENvbmZsaWN0
+JFJFRgAEAAQAAAAeAAUABABmb3JtYgEBAAcAS0VZV09SRAAKAgMABwASAAwACUwxUzNTNFM1UzZT
+</formula></item>
+<item name='$FormulaClass' sign='true'><text>1</text></item>
+<item name='$Collation' summary='true'>
+<rawitemdata type='2'>
+FgABAABEAGYAAAAJAEtleXdvcmRJRA==
+</rawitemdata></item>
+<item name='$ViewFormat' summary='true' sign='true'>
+<rawitemdata type='5'>
+AQADAAIACUgAAFZDAQAJAAkAAAAAAG0ABQEACAAgAAAAAAAAAAICAAAAVkMAAAsACwAAAAAAvAAF
+AAoIAAAAAAAAAAAAAgIAAABWQwAACAAIAAAAAAAgAQUAAAgAAAAAAAAAAAACAgAAMEtleXdvcmRJ
+REtleXdvcmRJREtleXdvcmREZXNjRGVzY3JpcHRpb25LZXl3b3Jkc0tleXdvcmRzJgABAAAAAQEA
+CQEAAAoBAQ4KAAABAK0rBQABAAEBAAAAAAAAAABXQwUBAAkAAAAAAAAAAAAAAAAAAAAAAQAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAV0MFAQAJAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAFdDBQEACQAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAABCAAAA
+AAABAP///wAFAP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAA=
+</rawitemdata></item>
+<item name='$Fonts'><textlist><text>5</text><text>38</text><text>Verdana</text></textlist></item>
+<item name='$Comment' sign='true'><text/></item>
+<item name='$DesignerVersion' sign='true'><text>5</text></item>
+<item name='$V5ACTIONS' sign='true'>
+<rawitemdata type='1'>
+i/8oAAEABSJNUyBTYW5zIFNlcmlmAAAAAAAAAAAAAAAAAAAAAAAAAL0cAQAAAAEAAQAAANEBAAAA
+AAAABQAKCAgAAQB5/2wAAQD///8AAQAAAAAAAAAAAAAAAQD///8AAAAdAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAD2/y8AAAAAAAMAEwANAAAAAAAAAAAAAAAAAAAAAAAAAAAAYmJfMjAweDIwLmdpZj++/yYA
+AAAFAAAAnQEAAAsAAAAAAAAAQ2F0ZWdvcmlfemUzAQBOfL7/KAAAAAUAAACdAQAADgAAAAAAAABf
+RWRpdCBEb2N1bWVudAIAAgq+/ygAAAAFAAAAnQEAAA4AAAAAAAAAU2VuZCBEb2N1X21lbnQDAAMK
+vv8iAAAABQAAAJ0BAAAIAAAAAAAAAF9Gb3J3YXJkBAAECr7/LAAAAAUAAACdAQAAEgAAAAAAAABf
+TW92ZSBUbyBGb2xkZXIuLi4FAD18vv8uAAAABQAAAJ0BAAATAAAAAAAAAF9SZW1vdmUgRnJvbSBG
+b2xkZXJABgA+fA==
+</rawitemdata></item>
+<item name='$ACTIONS' sign='true'>
+<rawitemdata type='1'>
+vRwBAAAAAQABAAAA0QEAAAAAAAAOAAoICAABAL7/JgAAAAUAAACdAQAACwAAAAAAAABDYXRlZ29y
+aV96ZQABAE58vv8oAAAABQAAAJ0BAAAOAAAAAAAAAF9FZGl0IERvY3VtZW50AgACCr7/KAAAAAUA
+AACdAQAADgAAAAAAAABTZW5kIERvY3VfbWVudAMAAwq+/yIAAAAFAAAAnQEAAAgAAAAAAAAAX0Zv
+cndhcmQEAAQKvv8sAAAABQAAAJ0BAAASAAAAAAAAAF9Nb3ZlIFRvIEZvbGRlci4uLgUAPXy+/y4A
+AAAFAAAAnQEAABMAAAAAAAAAX1JlbW92ZSBGcm9tIEZvbGRlcgAGAD58
+</rawitemdata></item>
+<item name='$Flags'><text>Yw</text></item></note>
+

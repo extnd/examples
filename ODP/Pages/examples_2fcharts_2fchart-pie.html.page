@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='utf-8'?>
+<note class='form' xmlns='http://www.lotus.com/dxl' version='9.0' replicaid='86257B2E00116506'>
+<noteinfo noteid='322' unid='A8894F56B89EA94586257B380015AADB' sequence='38'>
+<created><datetime dst='true'>20130323T225639,95-05</datetime></created>
+<modified><datetime dst='true'>20131021T214413,82-05</datetime></modified>
+<revised><datetime dst='true'>20131021T214413,81-05</datetime></revised>
+<lastaccessed><datetime dst='true'>20131021T214413,82-05</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20131021T110445,15-05</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Jack Ratcliff/OU=A55DE6/O=Prominic</name></updatedby>
+<wassignedby><name>CN=Jack Ratcliff/OU=A55DE6/O=Prominic</name></wassignedby>
+<item name='$HTMLCode' sign='true'>
+<rawitemdata type='1'>
+X/8QAAIADwAHAAAAAAAAAA==
+</rawitemdata></item>
+<item name='$TITLE'><text>examples/charts/chart-pie.html</text></item>
+<item name='$Info' sign='true'>
+<rawitemdata type='1'>
+hhgBAIAAAAAAgAAAAQABAP///wAQAAAA
+</rawitemdata></item>
+<item name='$WindowTitle' sign='true'><formula>"Pie chart using a Domino view"</formula></item>
+<item name='$HTMLHeadTag' sign='true'><formula>thisWebDbName := @WebDbName;
+extUrl := @GetProfileField("Extnd.Profile";"extUrl");
+extndUrl := @GetProfileField("Extnd.Profile";"extndUrl");
+debug := @If(@UrlQueryString("debug") = "true"; "-debug"; "");
+
+@NewLine + "&lt;!-- CSS --&gt;" + @NewLine +
+"&lt;link rel='stylesheet' type='text/css' href='" + extUrl + "resources/css/ext-all.css' /&gt;" + @NewLine +
+"&lt;link rel='stylesheet' type='text/css' href='" + extndUrl + "resources/css/domino.css' /&gt;" + @NewLine +
+
+@NewLine + "&lt;!-- Ext JS library --&gt;" + @NewLine +
+"&lt;script type='text/javascript' src='" + extUrl + "ext-all" + debug + ".js'&gt;&lt;/script&gt;" + @NewLine +
+
+@NewLine + "&lt;!-- Extnd JS library --&gt;" + @NewLine +
+"&lt;script type='text/javascript' src='" + extndUrl + "extnd-all" + debug + ".js'&gt;&lt;/script&gt;" + @NewLine +
+"&lt;script type='text/javascript' src='" + extndUrl + "Session.js?OpenAgent&amp;db=" + thisWebDbName + "'&gt;&lt;/script&gt;" + @NewLine +
+
+@NewLine + "&lt;!-- demo code --&gt;" + @NewLine +
+"&lt;script type='text/javascript' src='/" + thisWebDbName + "/examples/ViewSourceButton.js'&gt;&lt;/script&gt;" + @NewLine +
+"&lt;script type='text/javascript' src='chart-pie.js'&gt;&lt;/script&gt;"</formula></item>
+<item name='$Flags'><text>C34WQ</text></item>
+<item name='$DesignerVersion'><text>7</text></item>
+<item name='$$ScriptName' summary='false' sign='true'><text>demos/chart-pie.html</text></item>
+<item name='$Body' sign='true'>
+<rawitemdata type='1'>
+gQKC/1oAAQAAAAAAAAAAAKAFAACgBQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAABAAAAAJSHAAAAAAAAAAAAAAAAAQAAAAQAAACDBAEAhf8IAAEAAAqBAoMEAQCF/wgA
+AQAACoECgwQBAMz/CAAAAAAAhf8eAAEAAAo8ZGl2IGlkPSdkZXNjcmlwdGlvbic+zf8IAAAAAACB
+AoMEAQCF/wgAAQAACoECgwQBAIX/sAABAAAKVGhpcyBpcyBhbiBleGFtcGxlIG9mIGFuIEV4dCBK
+UyBwaWUgY2hhcnQgdGhhdCBwdWxscyBpdHMgZGF0YSBmcm9tIGEgY2F0ZWdvcml6ZWQgdmlldyB3
+aG9zIGZpcnN0IGNvbHVtbiBpcyBhICdUb3RhbHMnIGNvbHVtbiBzZXQgdG8gc2hvdyB0aGUgJ1Bl
+cmNlbnQgb2YgYWxsIGRvY3VtZW50cycugQKDBAEAhf8IAAEAAAqBAoL/WgACAAAAAAAAAAAAoAUA
+AKAFCADQAqAFcAhACxAO4BCwE4AWAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAlISgBQoA
+oAUKAAAAZAABAAAABAAAAIMEAgCF/0EAAQAACk5vdGUgdGhhdCB0aGUganMgaXMgbm90IG1pbmlm
+aWVkIHNvIGl0IGlzIHJlYWRhYmxlLiAgU2VlIADdBgAArf9+/wwAIAAIAAAAAAD2/yYAAAAAAAEA
+AAAMAAAAAAAAAAAAAAAAAGNoYXJ0LXBpZS5qc63/GQALAAgQAAANAGNoYXJ0LXBpZS5qcwAA3QYA
+AIX/hf8UAAEABApjaGFydC1waWUuanPSCAkAAAD/AN4GAACF/64C3gYAAK4Ahf8JAAEAAAouAIEC
+gwQCAIX/CAABAAAKgQKDBAEAzP8IAAAAAACF/w4AAQAACjwvZGl2Ps3/CAAAAAAAhf8IAAEAAAo=
+</rawitemdata></item></note>
+

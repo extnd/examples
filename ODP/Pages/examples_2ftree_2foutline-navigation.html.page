@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='utf-8'?>
+<note class='form' xmlns='http://www.lotus.com/dxl' version='9.0' replicaid='86257B2E00116506'>
+<noteinfo noteid='2ee' unid='A7E4E77DA369ED1386257B2F00191221' sequence='43'>
+<created><datetime dst='true'>20130314T233350,41-05</datetime></created>
+<modified><datetime dst='true'>20131021T214412,77-05</datetime></modified>
+<revised><datetime dst='true'>20131021T214412,76-05</datetime></revised>
+<lastaccessed><datetime dst='true'>20131021T214412,77-05</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20131021T110444,88-05</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Jack Ratcliff/OU=A55DE6/O=Prominic</name></updatedby>
+<wassignedby><name>CN=Jack Ratcliff/OU=A55DE6/O=Prominic</name></wassignedby>
+<item name='$HTMLCode' sign='true'>
+<rawitemdata type='1'>
+X/8QAAIADwAHAAAAAAAAAA==
+</rawitemdata></item>
+<item name='$TITLE'><text>examples/tree/outline-navigation.html</text></item>
+<item name='$Info' sign='true'>
+<rawitemdata type='1'>
+hhgBAIAAAAAAgAAAAQABAP///wAQAAAA
+</rawitemdata></item>
+<item name='$WindowTitle' sign='true'><formula>"Outline Navigation Demo"</formula></item>
+<item name='$HTMLHeadTag' sign='true'><formula>thisWebDbName := @WebDbName;
+extUrl := @GetProfileField("Extnd.Profile";"extUrl");
+extndUrl := @GetProfileField("Extnd.Profile";"extndUrl");
+debug := @If(@UrlQueryString("debug") = "true"; "-debug"; "");
+
+@NewLine + "&lt;!-- CSS --&gt;" + @NewLine +
+"&lt;link rel='stylesheet' type='text/css' href='" + extUrl + "resources/css/ext-all.css' /&gt;" + @NewLine +
+"&lt;link rel='stylesheet' type='text/css' href='" + extndUrl + "resources/css/domino.css' /&gt;" + @NewLine +
+
+@NewLine + "&lt;!-- Ext JS library --&gt;" + @NewLine +
+"&lt;script type='text/javascript' src='" + extUrl + "ext-all" + debug + ".js'&gt;&lt;/script&gt;" + @NewLine +
+
+@NewLine + "&lt;!-- Extnd JS library --&gt;" + @NewLine +
+"&lt;script type='text/javascript' src='" + extndUrl + "extnd-all" + debug + ".js'&gt;&lt;/script&gt;" + @NewLine +
+"&lt;script type='text/javascript' src='" + extndUrl + "Session.js?OpenAgent&amp;db=" + thisWebDbName + "'&gt;&lt;/script&gt;" + @NewLine +
+
+@NewLine + "&lt;!-- demo code --&gt;" + @NewLine +
+"&lt;script type='text/javascript' src='/" + thisWebDbName + "/examples/ViewSourceButton.js'&gt;&lt;/script&gt;" + @NewLine +
+"&lt;script type='text/javascript' src='outline-navigation.js'&gt;&lt;/script&gt;"</formula></item>
+<item name='$Flags'><text>C34WQ</text></item>
+<item name='$DesignerVersion'><text>7</text></item>
+<item name='$$ScriptName' summary='false' sign='true'><text>demos/multiple-outlines.html</text></item>
+<item name='$Body' sign='true'>
+<rawitemdata type='1'>
+gQKC/1oAAQAAAAAAAAAAAKAFAACgBQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAABAAAAAJSHAAAAAAAAAAAAAAAAAQAAAAQAAACDBAEAzP8IAAAAAACF/wgAAQAACoEC
+gwQBAIX/CAABAAAKgQKDBAEAhf8eAAEAAAo8ZGl2IGlkPSJkZXNjcmlwdGlvbiI+gQKDBAEAhf8I
+AAEAAArN/wgAAAAAAIECgv9aAAIAAAAAAAAAAACgBQAAoAUIANACoAVwCEALEA7gELATgBYAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAACUhKAFCgCgBQoAAABkAAEAAAAEAAAAgwQCAIX/nwAB
+AAAKTGlrZSB3aXRoIGEgdHlwaWNhbCBOb3RlcyBhcHBsaWNhdGlvbiwgb3V0bGluZXMgY2FuIGJl
+IHVzZWQgZm9yIG5hdmlnYXRpb24uIFRoaXMgZGVtbyB1c2VzIGFuIG91dGxpbmUgdGhhdCBkaXNw
+bGF5cyBzb21lIG9mIHRoZSB2aWV3cyBpbiB0aGlzIGRhdGFiYXNlLgCBAoMEAgCF/wgAAQAACoEC
+gwQCAIX/ywABAAAKSWYgeW91IGxvb2sgYXQgdGhlIHNvdXJjZSB5b3Ugd2lsbCBzZWUgdGhhdCB3
+aGVuIGNyZWF0aW5nIHRoZSBVSU91dGxpbmUsIHdlIHNldCB0aGUgJ3RhcmdldCcgcHJvcGVydHkg
+dG8gdGhlICdjZW50ZXJQYW5lbCcgd2hpY2ggaXMgYSBUYWJQYW5lIFRoaXMgd2lsbCBhbGxvdyBh
+IG5ldyB0YWIgdG8gYmUgb3BlbmVkIGZvciBlYWNoIHZpZXcuAIECgwQCAIX/FAABAAAKICAgICAg
+ICAgICAggQKDBAIAhf9yAAEAAApJbiBmdXR1cmUgZXhhbXBsZXMgd2Ugd2lsbCBzaG93IHlvdSBo
+b3cgdG8gY3VzdG9taXplIHRoaXMgZnVydGhlciBzbyB0aGF0IG9ubHkgb25lIHZpZXcgaXMgb3Bl
+biBhdCBhIHRpbWUugQKDBAIAzP8IAAAAAACF/wgAAQAACs3/CAAAAAAAgQKDBAIAhf9BAAEAAApO
+b3RlIHRoYXQgdGhlIGpzIGlzIG5vdCBtaW5pZmllZCBzbyBpdCBpcyByZWFkYWJsZS4gIFNlZSAA
+3QYAAK3/fv8MACAACAAAAAAA9v8vAAAAAAABAAAAFQAAAAAAAAAAAAAAAABvdXRsaW5lLW5hdmln
+YXRpb24uanMArf8iAAsACBAAABYAb3V0bGluZS1uYXZpZ2F0aW9uLmpzAN0GAACF/4X/HQABAAQK
+b3V0bGluZS1uYXZpZ2F0aW9uLmpzANIICQAAAP8A3gYAAIX/rgLeBgAArgCF/wgAAQAACoECgwQC
+AIX/CAABAAAKgQKDBAIAzP8IAAAAAACF/w4AAQAACjwvZGl2Ps3/CAAAAAAA
+</rawitemdata></item>
+<item name='$V5ACTIONS' sign='true'>
+<rawitemdata type='1'>
+vRwjAAAAAQABAAAAAQAAAAAAAAAAAAAACAACAHn/bAABANTQyAABAAAAAAAJAAAAAAABANTQyAAA
+AB8AAAAAAAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAPz/OgAAAAAAAQAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAEAAAAAAAAAAAAAAAAAAAA=
+</rawitemdata></item></note>
+

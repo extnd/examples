@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='utf-8'?>
+<note class='form' xmlns='http://www.lotus.com/dxl' version='9.0' replicaid='86257B2E00116506'>
+<noteinfo noteid='3b6' unid='93672152F5C19DC286257B2F00191227' sequence='11'>
+<created><datetime dst='true'>20130314T233350,47-05</datetime></created>
+<modified><datetime dst='true'>20131021T214413,17-05</datetime></modified>
+<revised><datetime dst='true'>20131021T214413,16-05</datetime></revised>
+<lastaccessed><datetime dst='true'>20131021T214413,17-05</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20131021T110445,91-05</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Jack Ratcliff/OU=A55DE6/O=Prominic</name></updatedby>
+<wassignedby><name>CN=Jack Ratcliff/OU=A55DE6/O=Prominic</name></wassignedby>
+<item name='$HTMLCode' sign='true'>
+<rawitemdata type='1'>
++f8gAAAAAAAPAAQA8QEAAAAAAAAAAAAAAAAAAAAAAADc/wQC+f/yASBOAAAAAAAAAAB2YXIgbXlW
+aWV3cyA9IGZ1bmN0aW9uKCl7DQl2YXIgc2hvd0J0biwgZGlhbG9nOw0JDQlyZXR1cm4gew0JCWlu
+aXQgOiBmdW5jdGlvbigpIHsNCQkJCQkNCQkJdmFyIHVpZG9jID0gbmV3IEV4dC5uZC5VSURvY3Vt
+ZW50KHsNCQkJCWxheW91dCA6ICdmaXQnLA0JCQkJaXRlbXMgOiBbew0JCQkJCXh0eXBlIDogJ3Rh
+YnBhbmVsJywNCQkJCQlhY3RpdmVUYWIgOiAwLA0JCQkJCWl0ZW1zIDogW3sNCQkJCQkJeHR5cGUg
+OiAneG5kLXVpdmlldycsDQkJCQkJCXRpdGxlIDogIlZpZXcxIiwNCQkJCQkJdmlld05hbWUgOiAn
+dGMxJw0JCQkJCX0sIHsNCQkJCQkJeHR5cGUgOiAneG5kLXVpdmlldycsDQkJCQkJCXRpdGxlIDog
+IlZpZXcyIiwNCQkJCQkJdmlld05hbWUgOiAnZjEnDQkJCQkJfV0NCQkJCX1dDQkJCX0pOw0JCQl1
+aWRvYy5yZW5kZXIoKTsNCQl9Ly8gZW5kIGluaXQNCX07Ly8gZW5kICdyZXR1cm4nDX0oKTsNDUV4
+dC5vblJlYWR5KG15Vmlld3MuaW5pdCwgbXlWaWV3cyk7AHJf/xAAAgAPAAcAAAAAAAAA
+</rawitemdata></item>
+<item name='$Info' sign='true'>
+<rawitemdata type='1'>
+hhgBAIAAAAAAgAAAAQABAP///wAQAAAA
+</rawitemdata></item>
+<item name='$WindowTitle' sign='true'><formula>"Multiple Views Demo"</formula></item>
+<item name='$HTMLHeadTag' sign='true'><formula>thisWebDbName := @WebDbName;
+extUrl := @GetProfileField("Extnd.Profile";"extUrl");
+extndUrl := @GetProfileField("Extnd.Profile";"extndUrl");
+debug := @If(@UrlQueryString("debug") = "true"; "-debug"; "");
+
+
+"&lt;!-- Ext JS library --&gt;" + @NewLine +
+"&lt;script type='text/javascript' src='" + extUrl + "ext-all" + debug + ".js'&gt;&lt;/script&gt;" + @NewLine +
+
+"&lt;!-- Extnd JS library --&gt;" + @NewLine +
+"&lt;script type='text/javascript' src='" + extndUrl + "extnd-all" + debug + ".js'&gt;&lt;/script&gt;" + @NewLine +
+"&lt;script type='text/javascript' src='" + extndUrl + "Session.js?OpenAgent&amp;db=" + thisWebDbName + "'&gt;&lt;/script&gt;" + @NewLine +
+
+"&lt;!-- Needed for the tasks db --&gt;" + @NewLine +
+"&lt;script type='text/javascript' src='../../tasks.nsf/taskStatusHandler.js'&gt;&lt;/script&gt;" + @NewLine +
+
+"&lt;link rel='stylesheet' type='text/css' href='" + extUrl + "resources/css/ext-all.css' /&gt;" + @NewLine +
+"&lt;link rel='stylesheet' type='text/css' href='" + extndUrl + "resources/css/domino.css' /&gt;"</formula></item>
+<item name='$Flags'><text>C34WQ</text></item>
+<item name='$$ScriptName' summary='false' sign='true'><text>demos/multiple-views.html</text></item>
+<item name='$Body' sign='true'>
+<rawitemdata type='1'>
+gQKC/1oAAQAAAAAAAAAAAKAFAACgBQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAABAAAAAJSHAAAAAAAAAAAAAAAAAQAAAAQAAACDBAEAzP8IAAAAAACF/wgAAQAACs3/
+CAAAAAAAgQKC/1oAAgAAAAAAAAAAAKAFAACgBQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAABAAAAAJWHAAAAAAAAAAAAAAAAAQAAAAQAAACDBAIAhf9DAAEAAApUaGlz
+IGlzIGEgImZ1bGxzY3JlZW4iIHZpZXcgc28gYWxsIGNvZGUgaXMgaW4gdGhlIEpTIEhlYWRlcgA=
+</rawitemdata></item>
+<item name='$V5ACTIONS' sign='true'>
+<rawitemdata type='1'>
+vRwjAAAAAQABAAAAAQAAAAAAAAAAAAAACAACAHn/bAABANTQyAABAAAAAAAJAAAAAAABANTQyAAA
+AB8AAAAAAAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAPz/OgAAAAAAAQAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAEAAAAAAAAAAAAAAAAAAAC+/1gAAAABAAAAnwEAACEAAAAAAAAAQ2xvc2VcQENvbW1h
+bmQoW0ZpbGVDbG9zZVdpbmRvd10pACAAAAASAAIA/BEAAAAAAADtAQMABwAMAAUACTBTMEUAvv86
+AAAABwAAAJ8BAAAjAAAAAAAAAENsb3NlXHRoaXMuZ2V0VUlEb2N1bWVudCgpLmNsb3NlKCk7APn/
+IAAAAAAAAQAEAB4AAAAAAAAAAAAAAAAAAAAAAAAA3P8wAPn/HgAgTgAAAAAAAAAAdGhpcy5nZXRV
+SURvY3VtZW50KCkuY2xvc2UoKTsAX/8QAAIAAQAHAAAAAAAAAA==
+</rawitemdata></item>
+<item name='$ACTIONS' sign='true'>
+<rawitemdata type='1'>
+vRwjAAAAAQABAAAAAQAAAAAAAAAAAAAACAACAL7/WAAAAAEAAACfAQAAIQAAAAAAAABDbG9zZVxA
+Q29tbWFuZChbRmlsZUNsb3NlV2luZG93XSkAIAAAABIAAgD8EQAAAAAAAO0BAwAHAAwABQAJMFMw
+RQC+/zoAAAAHAAAAnwEAACMAAAAAAAAAQ2xvc2VcdGhpcy5nZXRVSURvY3VtZW50KCkuY2xvc2Uo
+KTsA
+</rawitemdata></item>
+<item name='$TITLE' sign='true'><text>examples/misc/view-fullscreen-using-uidoc-and-tabpanel.html</text></item>
+<item name='$DesignerVersion' sign='true'><text>7</text></item></note>
+
